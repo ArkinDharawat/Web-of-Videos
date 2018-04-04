@@ -39,15 +39,16 @@ def format_node(node):
 
     return [start_time, end_time, line_str, remove_stop_words(line_str)]
 
-# text retrival
+
 def main(arg):
-    transcript_folder = arg
-    transcript_files = os.listdir(os.path.join(os.getcwd(), transcript_folder))
-    df_main = pd.DataFrame()
+
+    transcript_folder = arg # folder_name
+    transcript_files = os.listdir(os.path.join(os.getcwd(), transcript_folder)) # get file_path to all transcript files
+    df_main = pd.DataFrame() # empty dataframe
 
     for file in transcript_files:
-        print file
-        toeknized_filename = filename_tokenizer.tokenize(file)[0]
+        # print file
+        toeknized_filename = filename_tokenizer.tokenize(file)[0] # tokenize filename to get lecture data
         if toeknized_filename[0]!='':
             lecture, sub_lecture, lecture_no, lecture_name = toeknized_filename[0:4]
         else:
@@ -55,24 +56,26 @@ def main(arg):
             lecture_no = ''
 
         with open(os.path.join(transcript_folder, file)) as f_in:
-            lines = filter(None, (line.rstrip() for line in f_in))
+            lines = filter(None, (line.rstrip() for line in f_in)) # remove empty lines
 
         format_list = []
-        nodes = []
-        for x in lines:
-            if x.isdigit():
+        node_list = []
+        for text_segment in lines:
+            if text_segment.isdigit():
+                # Getting a digit signifies the next sentence
                 if format_list!=[]:
                     formatted_data = format_node(format_list)
-                    nodes.append(formatted_data)
+                    node_list.append(formatted_data)
                     format_list = []
             else:
-                format_list.append(x)
+                format_list.append(text_segment)
 
-        for x in nodes:
+
+        for node in node_list:
             df_row = {}
-            row_lst = [lecture, sub_lecture, lecture_no, lecture_name] + x
-            for i in range(len(row_lst)):
-                df_row[column_names[i]] = row_lst[i]
+            row_list = [lecture, sub_lecture, lecture_no, lecture_name] + node
+            for i in range(len(row_list)):
+                df_row[column_names[i]] = row_list[i]
 
             df_main = df_main.append(df_row, ignore_index=True)
 
