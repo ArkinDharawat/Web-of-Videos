@@ -102,3 +102,6 @@ ENV/
 
 # transcript-files
 *.srt
+
+# Dataframes
+*.csv

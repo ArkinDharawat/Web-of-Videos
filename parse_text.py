@@ -79,7 +79,7 @@ def main(arg):
 
             df_main = df_main.append(df_row, ignore_index=True)
 
-    df_main.to_csv(transcript_folder[:-4]+".csv")
+    df_main.to_csv(transcript_folder[:-4]+".csv", index=False)
 
 if __name__ == '__main__':
     main(sys.argv[1])
