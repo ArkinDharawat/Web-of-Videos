@@ -1,0 +1,200 @@
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.174967881773
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.177995100717
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.131509454501
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.176557761409
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.133604525128
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.172673821027
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.108856805501
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.160636571185
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.150378511125
+--------------------
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.174967881773
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.0933253703106
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.150624998431
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.124366505299
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.193497392094
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.130007174378
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.0791930649669
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.0985654198996
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.173880676569
+--------------------
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.177995100717
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.0933253703106
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.173574501849
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.157694216552
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.132325656967
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.0919139241804
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.159664171268
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.109424823966
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.109431207608
+--------------------
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.131509454501
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.150624998431
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.173574501849
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.130766562181
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.126270065099
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.132440647653
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.173785715507
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.135820171683
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.178877243007
+--------------------
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.176557761409
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.124366505299
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.157694216552
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.130766562181
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.173073581342
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.178220315178
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.109235210108
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.117096547607
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.140286320854
+--------------------
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.133604525128
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.193497392094
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.132325656967
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.126270065099
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.173073581342
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.13274654283
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.0936087428604
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.130446269898
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.118500511475
+--------------------
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.172673821027
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.130007174378
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.0919139241804
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.132440647653
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.178220315178
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.13274654283
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.106353465498
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.113451009167
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.12916783204
+--------------------
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.108856805501
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.0791930649669
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.159664171268
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.173785715507
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.109235210108
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.0936087428604
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.106353465498
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.0899234006155
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.119895190584
+--------------------
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.160636571185
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.0985654198996
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.109424823966
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.135820171683
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.117096547607
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.130446269898
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.113451009167
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.0899234006155
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+0.155790653991
+--------------------
+Text data is very special. In contrast to the data captured by machines such as sensors, text data is produced by humans. And they also are meant to be consumed by humans. And this has some interesting consequences. Because it is produced by humans, it tends to have a lot of useful knowledge about
+And then we're going to update the score accumulator for this document. And this would allow us to add this to our accumulator, that would incrementally compute function h. So this is basically a general way to allow sort of computer all functions of this form, by using inverted index.
+0.150378511125
+the overall score to be less than three, while d3 will get the score about three. Then, we'll be able to rank d3 on top of d2. So how can we do this systematically? Again, we can rely on some steps that people count. And in this case, the particular idea is called the Inverse Document Frequency. We have seen document frequency.
+0.173880676569
+That means you don't have many preferences available, so the system could not fully take advantage of collaborative filtering yet. So let's look at the collaborative filtering problem in a more formal way. And so this picture shows that we are in general considering a lot of users and
+0.109431207608
+this document is not very useful. This is good again, et cetera. Now this is called a relevance judgment or Relevance Feedback, because we've got some feedback information from the user based on the judgments. This can be very useful to the system. Learn what exactly is interesting to the user.
+0.178877243007
+Now, let's look at these three documents again. The query vector is the same because all these words occurred exactly once in the query. So the vector is still 0 1 vector. And in fact, d2 is also essential in representing the same way because none of these words has been repeated many times.
+0.140286320854
+of the corresponding text. We can look at the, even the smaller text. So, in this case let's look at the text mining paper. Now if we do the same we have another. Distribution again the can be expected to occur on the top. Soon we will see text, mining, association, clustering, these words have relatively high probabilities in contrast
+0.118500511475
+So mathematically what we have is to compute the likelihood again, local likelihood of the feedback documents. And, and note that, we also have another parameter, lambda here. But we assume that lambda denotes noise in the feedback document. So we are going to, let's say, set this to a parameter, let's say,
+0.12916783204
+It's a very difficult challenge. For measures, it's also challenging because what we want with measures is that with accuracy reflected the perceived utility of users. We have to consider carefully what the users care about and then design measures to measure that. If we, your measure is not measuring the right thing, then your conclusion would, would be misled.
+0.119895190584
+So this seems to make more sense than a fixed coefficient smoothing. Of course, this part would be of this form, so that the two coefficients would sum to 1. Now, this is one way to understand that this is smoothing. Basically, it means that it's a dynamic coefficient interpolation.
+0.155790653991
+--------------------

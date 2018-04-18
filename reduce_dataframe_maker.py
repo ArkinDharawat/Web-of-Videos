@@ -52,6 +52,8 @@ def reduce_dataframe(df_main, time_gap):
         final_end_time = [df_main.iloc[df_subset.index[0]]['end_time']]
         final_start_time = [df_main.iloc[df_subset.index[0]]['start_time']]
 
+        # print df_subset['total_lecture_time']
+
 
         for i in df_subset.index[1:]:
              row = df_main.iloc[i]
@@ -70,8 +72,9 @@ def reduce_dataframe(df_main, time_gap):
              else:
                 new_row = {}
                 new_row['total_time_taken'] = time_accumalted
-                new_row['tokenized_sentence'] = token_sentence_accumalted
-                new_row['sentence'] = sentence_accumalted
+                # print token_sentence_accumalted
+                new_row['tokenized_sentence'] = token_sentence_accumalted[1:]
+                new_row['sentence'] = sentence_accumalted[1:]
                 new_row['start_time'] = final_start_time[0]
                 new_row['end_time'] = final_end_time[-1]
                 new_row['lecture'] = lecture
@@ -89,8 +92,8 @@ def reduce_dataframe(df_main, time_gap):
 
         new_row = {}
         new_row['total_time_taken'] = time_accumalted
-        new_row['tokenized_sentence'] = token_sentence_accumalted
-        new_row['sentence'] = sentence_accumalted
+        new_row['tokenized_sentence'] = token_sentence_accumalted[1:]
+        new_row['sentence'] = sentence_accumalted[1:]
         new_row['start_time'] = final_start_time[0]
         new_row['end_time'] = final_end_time[-1]
         new_row['lecture'] = lecture
@@ -103,7 +106,7 @@ def reduce_dataframe(df_main, time_gap):
 
 def main(df_path, time_gap):
 
-    df_reduced = reduce_dataframe(pd.read_csv(df_path), 10)
+    df_reduced = reduce_dataframe(pd.read_csv(df_path), int(time_gap))
 
     df_reduced.to_csv(df_path.split(".")[0] + "_" + str(time_gap) + ".csv", index=False)
 

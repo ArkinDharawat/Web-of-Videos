@@ -5,10 +5,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk import pos_tag
 from nltk.corpus import wordnet as wn
 
-import sys
-from gensim.models import word2vec, KeyedVectors
-#TODO: Make a class or keep them as functions????
-
 def random_sentences(num_rand_sentences):
     """Select num_rand_sentences at random from the Dataframe
 
@@ -20,9 +16,14 @@ def random_sentences(num_rand_sentences):
     """
     size = num_rand_sentences
     indices = np.random.randint(0, df_main.shape[0], size)
-    random_sentences = map(lambda x: df_main.iloc[x]['tokenized_sentence'], indices)
 
-    return random_sentences
+    tokenized_subset = df_main['tokenized_sentence'].dropna()
+    sentence_subset = df_main['sentence'].dropna()
+
+    random_tokenized_sentences = map(lambda x: tokenized_subset[x], indices)
+    random_normal_sentences = map(lambda x: sentence_subset[x], indices)
+
+    return random_tokenized_sentences, random_normal_sentences
 
 ## Semantic Similarity
 
@@ -71,7 +72,7 @@ def penn_to_wn(tag):
 
 
 def tagged_to_synset(word, tag):
-    """ Given the word and tag return the first node in the sysnet
+    """Given the word and tag return the first node in the sysnet
 
     Args:
         word (str): the word
@@ -144,7 +145,7 @@ def similarity_measure(tokens1, tokens2, synet1, synet2, idf):
     return 0.5 * ( float(max_sim_1)/float(sum_idf_1) + float(max_sim_2)/float(sum_idf_2))
 
 
-def check_semantic_similarity(tokenized_sentences):
+def semantic_similarity(tokenized_sentences):
     """Make a matrix of semantic similarity between i and j entries
 
     Args:
@@ -174,8 +175,7 @@ def check_semantic_similarity(tokenized_sentences):
     return sentence_mat
 
 ##  TF-IDF
-
-def check_tfidf(tokenized_sentences):
+def tfidf(tokenized_sentences):
     """Make a matrix of tfidf similarity between i and j entries
     Args:
         tokenized_sentences (list): list of tokens of sentences
@@ -190,79 +190,97 @@ def check_tfidf(tokenized_sentences):
     return tfidf_mat
 
 ## Word Embeddings
-# TODO: WORK ON IMPROVING WORD EMBEDDINGS
-# def w2v(s1,s2,wordmodel):
-#         if s1==s2:
-#                 return 1.0
-#
-#         s1words=s1.split()
-#         s2words=s2.split()
-#         s1wordsset=set(s1words)
-#         s2wordsset=set(s2words)
-#         vocab = wordmodel.vocab #the vocabulary considered in the word embeddings
-#         if len(s1wordsset & s2wordsset)==0:
-#                 return 0.0
-#         for word in s1wordsset.copy(): #remove sentence words not found in the vocab
-#                 if (word not in vocab):
-#                         s1words.remove(word)
-#         for word in s2wordsset.copy(): #idem
-#                 if (word not in vocab):
-#                         s2words.remove(word)
-#         return wordmodel.n_similarity(s1words, s2words)
-#
-# def check_word2vec(tokenized_sentences, wordmodel):
-#     word2vec_mat = np.zeros(shape=(len(tokenized_sentences), len(tokenized_sentences)))
-#
-#     for i in range(len(tokenized_sentences)):
-#         for j in range(i+1, len(tokenized_sentences)):
-#             sim = w2v(tokenized_sentences[i][j], tokenized_sentences[j][i], wordmodel)
-#
-#             word2vec_mat[i][j] = sim
-#             word2vec_mat[j][i] = sim
-#
-#     return word2vec_mat
+def w2v(s1,s2,wordmodel):
+    """Calculate similarity in Word Embeddings
+    Args:
+        s1 (str): a sentence
+        s2 (str): a sentence
+        wordmodel (wv.Word2Vec): a trained word 2 vec model
+
+    Return:
+        (float) : Similarity score
+    """
+    if s1==s2:
+            return 1.0
+
+    s1words=s1.split()
+    s2words=s2.split()
+    s1wordsset=set(s1words)
+    s2wordsset=set(s2words)
+    vocab = wordmodel.vocab #the vocabulary considered in the word embeddings
+    if len(s1wordsset & s2wordsset)==0:
+            return 0.0
+    for word in s1wordsset.copy(): #remove sentence words not found in the vocab
+            if (word not in vocab):
+                    s1words.remove(word)
+    for word in s2wordsset.copy(): #idem
+            if (word not in vocab):
+                    s2words.remove(word)
+    return wordmodel.n_similarity(s1words, s2words)
+
+def word2vec(tokenized_sentences, wordmodel):
+    """Calculate similarit matrix using a word 2 vec model
+
+    Args:
+        tokenized_sentences (list): a list of tokenized sentence
+        wordmodel (wv.Word2Vec): a word to vec model
+
+    Return:
+         (np.ndarray): a similarity matrix
+    """
+    word2vec_mat = np.zeros(shape=(len(tokenized_sentences), len(tokenized_sentences)))
+
+    for i in range(len(tokenized_sentences)):
+        for j in range(i+1, len(tokenized_sentences)):
+            sim = w2v(tokenized_sentences[i], tokenized_sentences[j], wordmodel)
+
+            word2vec_mat[i][j] = sim
+            word2vec_mat[j][i] = sim
+
+    return word2vec_mat
 
 
-def print_results(tokenized_sentences, test_index, sim_mat):
+def print_results(tokenized_sentences, sim_mat):
     """Print results from the matrix generated
 
     Args:
         tokenized_sentences (list): list of sentences
-        test_index (int): the index to print
         sim_mat (np.narray): the matrix with similarity scores
 
     Return:
         (void)
     """
-    if test_index > len(tokenized_sentences):
-        test_index = 0
 
-    print tokenized_sentences[test_index]
-    print
+    f = open("results.txt", "w")
 
-    for x in range(len(tokenized_sentences)):
-        if x!=test_index:
-            print tokenized_sentences[x], sim_mat[test_index][x]
+    for x in range(len(sim_mat)):
+        f.write(tokenized_sentences[x] + "\n")
+        for y in range(len(sim_mat[0])):
+            if x!=y:
+                f.write(tokenized_sentences[y] + "\n" + str(sim_mat[x][y]) + "\n")
+        f.write("-"*20 + "\n")
+
+    f.close()
+
+
 
 
 if __name__ == '__main__':
-
-
-    df_path = "textanalysis_10.csv"  # PATH TO DATAFRAME HERE
+    df_path = "textretrieval_20.csv"  # PATH TO DATAFRAME HERE
 
     df_main = pd.read_csv(df_path)
 
-    tokenized_sentences = random_sentences(10)
+    tokenized_sentences, normal_sentences = random_sentences(10)
 
-    # sem_mat = check_semantic_similarity(tokenized_sentences)
-    # tfidf_mat =check_tfidf(tokenized_sentences)
-    #
-    # print_results(tokenized_sentences, 4, sem_mat)
+    # print tokenized_sentences
 
-    # wordmodelfile = "GoogleNews-vectors-negative300.bin.gz"
-    # wordmodel = KeyedVectors.load_word2vec_format(wordmodelfile, binary=True)
-    #
+    # tfidf_mat =tfidf(tokenized_sentences)
+    # print_results(normal_sentences, tfidf_mat)
+
+    # sem_mat = semantic_similarity(tokenized_sentences)
+    # print_results(normal_sentences, sem_mat)
+
+    # wordmodel = joblib.load('textretreival_model.pkl').wv
     # w2v_mat = check_word2vec(tokenized_sentences, wordmodel)
-    #
-    # print_results(tokenized_sentences, 4, w2v_mat)
+    # print_results(normal_sentences, w2v_mat)
 
