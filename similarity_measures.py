@@ -2,8 +2,10 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from nltk import pos_tag
-from nltk.corpus import wordnet as wn
+from sematch.semantic.similarity import WordNetSimilarity
+WNS = WordNetSimilarity()
+
+# NOTE: For reference see: https://pdfs.semanticscholar.org/1374/617e135eaa772e52c9a2e8253f49483676d6.pdf
 
 def random_sentences(num_rand_sentences):
     """Select num_rand_sentences at random from the Dataframe
@@ -27,7 +29,7 @@ def random_sentences(num_rand_sentences):
 
 ## Semantic Similarity
 
-SIMILARITY = 0
+SIMILARITY = "wup" #NOTE: Using Wup, closest to the Combined metric.
 
 def idf(tokenized_sentences):
         """Calculate of given list of sentences
@@ -46,104 +48,53 @@ def idf(tokenized_sentences):
             idf_values[tkn] = 1 + np.log(len(tokenized_sentences) / (sum(contains_token)))
         return idf_values
 
-
-def penn_to_wn(tag):
-    """Convert between a Penn Treebank tag to a simplified Wordnet tag
-
-    Args:
-        tag (): the POS tag assigned
-
-    Return:
-        char: character denoting the POS tag in Wordnet
-    """
-    if tag.startswith('N'):
-        return 'n'
-
-    if tag.startswith('V'):
-        return 'v'
-
-    if tag.startswith('J'):
-        return 'a'
-
-    if tag.startswith('R'):
-        return 'r'
-
-    return None
-
-
-def tagged_to_synset(word, tag):
-    """Given the word and tag return the first node in the sysnet
-
-    Args:
-        word (str): the word
-        tag (): the POS tag assigned
-
-    Return:
-        wn.synet: the root of the synet of the word
-    """
-    wn_tag = penn_to_wn(tag)
-    if wn_tag is None:
-        return None
-
-    try:
-        return wn.synsets(word, wn_tag)[0]
-    except:
-        return None
-
-def maximum_similarity(word, tokens, synet_word, synet_token):
+def maximum_similarity(word, tokens):
     """ Calculate maximum similarity from word and token
     Args:
         word (str): the word
         tokens (list): tokens belonging to the term
-        synet_word (wn.synet): the synet of the word
-        synet_token (list): the list of synets
-
     Return:
          float: the maxSim score
     """
-    if SIMILARITY == 0:
-         best_score =  max([synet_word.path_similarity(synet) for synet in synet_token])
-         if best_score is None:
-             return 0
-         else:
-             return best_score
+    if len(tokens) == 0:
+        return 0
 
-def similarity_measure(tokens1, tokens2, synet1, synet2, idf):
+    best_score =  max([WNS.word_similarity(word, token, SIMILARITY) for token in tokens])
+    if best_score is None:
+        return 0
+    else:
+        return best_score
+
+def similarity_measure(tokens1, tokens2, idf):
     """Calulcate the similarity metric between 2 terms
 
     Args:
         tokens1 (list): list of tokens for term 1
         tokens2 (list): list of tokens for term 2
-        synet1 (list): list of synets of term 1
-        synet2 (list): list of synets of term 2
         idf (dict): the idf dictionary
 
     Return:
         (float) the similarity score
     """
+    try:
 
-    sum_idf_1 = sum(map(lambda x: idf[x], tokens1))
-    sum_idf_2 = sum(map(lambda x: idf[x], tokens2))
-    max_sim_1 = 0.0
-    max_sim_2 = 0.0
+        sum_idf_1 = sum(map(lambda x: idf[x], tokens1))
+        sum_idf_2 = sum(map(lambda x: idf[x], tokens2))
+        max_sim_1 = 0.0
+        max_sim_2 = 0.0
 
-    for i in range(len(tokens1)):
-        if synet1[i] is None:
-            score = 0
-        else:
-            score = maximum_similarity(tokens1[i], tokens2, synet1[i], [x for x in synet2 if x]) * idf[tokens1[i]]
+        for i in range(len(tokens1)):
+            score = maximum_similarity(tokens1[i], tokens2) * idf[tokens1[i]]
+            max_sim_1+=score
 
-        max_sim_1+=score
+        for i in range(len(tokens2)):
+            score = maximum_similarity(tokens2[i], tokens1) * idf[tokens2[i]]
+            max_sim_2+=score
 
-    for i in range(len(tokens2)):
-        if synet2[i] is None:
-            score = 0
-        else:
-            score = maximum_similarity(tokens2[i], tokens1, synet2[i], [x for x in synet1 if x]) * idf[tokens2[i]]
-        max_sim_2+=score
-
-    return 0.5 * ( float(max_sim_1)/float(sum_idf_1) + float(max_sim_2)/float(sum_idf_2))
-
+        return 0.5 * ( float(max_sim_1)/float(sum_idf_1) + float(max_sim_2)/float(sum_idf_2))
+    except:
+        print tokens1, tokens2
+        return -1
 
 def semantic_similarity(tokenized_sentences):
     """Make a matrix of semantic similarity between i and j entries
@@ -155,25 +106,22 @@ def semantic_similarity(tokenized_sentences):
         np.narray: the matrix with the similarty scores
     """
     token_list = map(lambda x: x.split(" ")[1:], tokenized_sentences)
-    synet_list = map(lambda x: [tagged_to_synset(*y) for y in pos_tag(x)], token_list)
 
+    word_idf = idf(token_list)  # TODO: Replace with sklearn?
 
-    word_idf = idf(token_list)
-
-    sentence_mat = np.zeros(shape=(len(tokenized_sentences), len(tokenized_sentences)))
+    sentence_mat = np.ones(shape=(len(tokenized_sentences), len(tokenized_sentences)))
 
     for i in range(len(tokenized_sentences)):
-        for j in range(i+1, len(tokenized_sentences)):
-            sim = similarity_measure(token_list[i], token_list[j], synet_list[i], synet_list[j], word_idf)
+        for j in range(i + 1, len(tokenized_sentences)):
+            sim = round(similarity_measure(token_list[i], token_list[j], word_idf), 3)
 
             sentence_mat[i][j] = sim
-            sentence_mat[j][i] = sim #TODO: Path Similarity is not commutative! 
+            sentence_mat[j][i] = sim  # TODO: This measures for words with same part of speech
 
             # print sim
 
             # break
     return sentence_mat
-
 ##  TF-IDF
 def tfidf(tokenized_sentences):
     """Make a matrix of tfidf similarity between i and j entries
@@ -186,6 +134,9 @@ def tfidf(tokenized_sentences):
     tfidf_vectorizer = TfidfVectorizer(min_df=1)
     tfidf_vect = tfidf_vectorizer.fit_transform(tokenized_sentences) #each sentence can be replaced by a whole document
     tfidf_mat = (tfidf_vect * tfidf_vect.T).A #similarities matrix
+    for i in range(len(tfidf_mat)):
+        for j in range(len(tfidf_mat)):
+            tfidf_mat[i][j] = round(tfidf_mat[i][j], 3)
 
     return tfidf_mat
 
@@ -270,7 +221,7 @@ if __name__ == '__main__':
 
     df_main = pd.read_csv(df_path)
 
-    tokenized_sentences, normal_sentences = random_sentences(10)
+    tokenized_sentences, normal_sentences = random_sentences(2)
 
     # print tokenized_sentences
 

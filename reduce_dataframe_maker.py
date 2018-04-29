@@ -21,6 +21,33 @@ def total_time(row):
 
 # TODO: Optimize using reduce?
 
+def make_row(time_accumalted, token_sentence_accumalted, sentence_accumalted, final_start_time,
+             final_end_time, lecture):
+    """Make the row for the dataframe
+
+    Args:
+        time_accumalted (int):  the total time
+        token_sentence_accumalted (str): the tokenized sentence
+        sentence_accumalted (str): the sentence
+        final_start_time (str): the final start time
+        final_end_time (str): the final end time
+        lecture (str):  the lecture name
+
+    Returns:
+        Dictionarty: the dictionary with keys as columns and values as parameters
+    """
+    new_row = {}
+    new_row['total_time_taken'] = time_accumalted
+    # print token_sentence_accumalted
+    new_row['tokenized_sentence'] = repr(token_sentence_accumalted[1:])
+    new_row['sentence'] = sentence_accumalted[1:]
+    new_row['start_time'] = final_start_time[0]
+    new_row['end_time'] = final_end_time[-1]
+    new_row['lecture'] = lecture
+
+    return new_row
+
+
 def reduce_dataframe(df_main, time_gap):
     """Coalesce rows of the Dataframe that are below the time_gap
 
@@ -70,14 +97,8 @@ def reduce_dataframe(df_main, time_gap):
                  final_end_time.append(row['end_time'])
                  final_start_time.append(row['start_time'])
              else:
-                new_row = {}
-                new_row['total_time_taken'] = time_accumalted
-                # print token_sentence_accumalted
-                new_row['tokenized_sentence'] = token_sentence_accumalted[1:]
-                new_row['sentence'] = sentence_accumalted[1:]
-                new_row['start_time'] = final_start_time[0]
-                new_row['end_time'] = final_end_time[-1]
-                new_row['lecture'] = lecture
+                new_row = make_row(time_accumalted, token_sentence_accumalted, sentence_accumalted, final_start_time,
+                                   final_end_time, lecture)
 
 
                 df_new = df_new.append(new_row, ignore_index=True)
@@ -90,13 +111,8 @@ def reduce_dataframe(df_main, time_gap):
 
                 final_start_time = [row['start_time']]
 
-        new_row = {}
-        new_row['total_time_taken'] = time_accumalted
-        new_row['tokenized_sentence'] = token_sentence_accumalted[1:]
-        new_row['sentence'] = sentence_accumalted[1:]
-        new_row['start_time'] = final_start_time[0]
-        new_row['end_time'] = final_end_time[-1]
-        new_row['lecture'] = lecture
+        new_row = make_row(time_accumalted, token_sentence_accumalted, sentence_accumalted, final_start_time,
+                           final_end_time, lecture)
 
         df_new = df_new.append(new_row, ignore_index=True)
 
