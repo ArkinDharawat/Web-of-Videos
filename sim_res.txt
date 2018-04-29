@@ -1,0 +1,3596 @@
+Node: index 0 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+Neighbour: index 253 and lecture Probabilistic Topic Models- Mining One Topic
+Neighbour: index 1327 and lecture Overview of Text Retrieval Methods
+Neighbour: index 1419 and lecture Statistical Language Models (00-17-53)
+
+Node: index 1 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+Neighbour: index 1420 and lecture Statistical Language Models (00-17-53)
+
+
+Node: index 3 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+Neighbour: index 1422 and lecture Statistical Language Models (00-17-53)
+
+Node: index 4 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+
+
+Node: index 7 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+Neighbour: index 1240 and lecture Smoothing of Language Model - Part 1
+
+Node: index 8 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+Node: index 9 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+Node: index 10 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+Neighbour: index 1430 and lecture Statistical Language Models (00-17-53)
+
+
+
+
+
+
+Node: index 16 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+Neighbour: index 1435 and lecture Statistical Language Models (00-17-53)
+
+
+Node: index 18 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+Neighbour: index 187 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+
+
+Node: index 20 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+
+
+Node: index 23 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 854 and lecture Overview Text Mining and Analytics- Part 2
+
+
+Node: index 25 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 62 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+Neighbour: index 459 and lecture Course Summary
+
+
+
+
+Node: index 29 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 60 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+Node: index 30 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 73 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+
+
+
+
+
+Node: index 36 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 58 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+Node: index 37 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+
+Node: index 38 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 58 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+Node: index 39 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+
+
+
+
+Node: index 43 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+
+
+
+Node: index 46 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+
+
+Node: index 48 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 58 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+
+
+
+
+
+
+
+
+
+Node: index 58 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+Neighbour: index 36 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 38 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 48 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+
+
+Node: index 60 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+Neighbour: index 29 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+
+
+Node: index 62 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+Neighbour: index 25 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+
+
+
+
+
+
+
+
+
+
+
+Node: index 73 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+Neighbour: index 30 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 459 and lecture Course Summary
+
+
+Node: index 75 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+Node: index 76 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+Node: index 77 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+
+
+
+
+
+
+
+
+
+Node: index 87 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+
+Node: index 89 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+Node: index 90 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+
+
+
+
+
+
+
+
+
+
+Node: index 101 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+Node: index 102 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+
+
+
+Node: index 106 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+Node: index 107 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+Node: index 108 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+
+
+Node: index 111 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+Node: index 112 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+Node: index 113 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+Neighbour: index 1455 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1544 and lecture Probabilistic Retrieval Model- Basic Idea
+
+
+Node: index 115 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+
+Node: index 116 and lecture Course Prerequisites & Completion
+Neighbour: index 1732 and lecture Course Welcome
+Neighbour: index 1733 and lecture Course Welcome
+
+
+
+
+
+
+
+Node: index 123 and lecture Course Prerequisites & Completion
+Neighbour: index 1850 and lecture Course Introduction
+
+
+Node: index 125 and lecture Course Prerequisites & Completion
+Neighbour: index 1850 and lecture Course Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 138 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 3
+
+Node: index 139 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 3
+
+Node: index 140 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 3
+
+Node: index 141 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 3
+
+
+Node: index 143 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 3
+
+
+Node: index 145 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 3
+
+
+
+
+
+Node: index 150 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+Neighbour: index 789 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+
+
+Node: index 152 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+
+
+Node: index 154 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+Neighbour: index 800 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+
+
+
+
+Node: index 158 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+Neighbour: index 800 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+
+
+
+
+
+
+
+
+
+Node: index 167 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+Neighbour: index 1876 and lecture Smoothing Methods Part - 1
+
+
+
+
+
+
+
+
+Node: index 175 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 341 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+Neighbour: index 1217 and lecture Feedback in Text Retrieval- Feedback in LM
+
+
+
+
+
+
+
+
+Node: index 183 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+
+
+
+
+Node: index 187 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 18 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+Node: index 188 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 358 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+Neighbour: index 760 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+
+
+
+
+Node: index 192 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 511 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 760 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 761 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+
+
+Node: index 194 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 506 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 632 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 633 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 645 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 2
+Neighbour: index 760 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 761 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 794 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+
+
+
+
+Node: index 198 and lecture Word Association Mining and Analysis
+Neighbour: index 230 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 619 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 620 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 655 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 853 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1456 and lecture Statistical Language Models (00-17-53)
+
+Node: index 199 and lecture Word Association Mining and Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 213 and lecture Word Association Mining and Analysis
+
+Node: index 214 and lecture Word Association Mining and Analysis
+Neighbour: index 232 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 957 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 958 and lecture Paradigmatic Relation Discovery Part 1
+
+Node: index 215 and lecture Word Association Mining and Analysis
+Neighbour: index 232 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 957 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 958 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 960 and lecture Paradigmatic Relation Discovery Part 1
+
+Node: index 216 and lecture Word Association Mining and Analysis
+
+Node: index 217 and lecture Word Association Mining and Analysis
+
+Node: index 218 and lecture Word Association Mining and Analysis
+Neighbour: index 957 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 958 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 959 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 970 and lecture Paradigmatic Relation Discovery Part 1
+
+Node: index 219 and lecture Word Association Mining and Analysis
+Neighbour: index 957 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 958 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 960 and lecture Paradigmatic Relation Discovery Part 1
+
+
+Node: index 221 and lecture Word Association Mining and Analysis
+Neighbour: index 232 and lecture Syntagmatic Relation Discovery- Entropy
+
+
+
+Node: index 224 and lecture Word Association Mining and Analysis
+Neighbour: index 1002 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+
+
+Node: index 226 and lecture Word Association Mining and Analysis
+
+
+
+
+Node: index 230 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 198 and lecture Word Association Mining and Analysis
+Neighbour: index 693 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+Neighbour: index 949 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 986 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+Node: index 232 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 214 and lecture Word Association Mining and Analysis
+Neighbour: index 215 and lecture Word Association Mining and Analysis
+Neighbour: index 221 and lecture Word Association Mining and Analysis
+
+
+
+
+
+Node: index 237 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 1705 and lecture Vector Space Model- Simplest Instantiation
+
+
+Node: index 239 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 1517 and lecture Probabilistic Retrieval Model- Basic Idea
+
+
+
+Node: index 242 and lecture Syntagmatic Relation Discovery- Entropy
+
+
+
+
+Node: index 246 and lecture Syntagmatic Relation Discovery- Entropy
+
+Node: index 247 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 507 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+
+Node: index 248 and lecture Syntagmatic Relation Discovery- Entropy
+
+Node: index 249 and lecture Syntagmatic Relation Discovery- Entropy
+
+
+
+
+Node: index 253 and lecture Probabilistic Topic Models- Mining One Topic
+Neighbour: index 0 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+
+
+
+
+
+
+Node: index 260 and lecture Probabilistic Topic Models- Mining One Topic
+Neighbour: index 1411 and lecture Query Likelihood Retrieval Function
+
+
+
+
+Node: index 264 and lecture Probabilistic Topic Models- Mining One Topic
+Neighbour: index 527 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+
+
+
+
+Node: index 268 and lecture Probabilistic Topic Models- Mining One Topic
+
+Node: index 269 and lecture Probabilistic Topic Models- Mining One Topic
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 281 and lecture Contextual Text Mining- Mining Topics with Social Network Context
+Neighbour: index 691 and lecture Opinion Mining and Sentiment Analysis- Motivation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 298 and lecture Contextual Text Mining- Mining Topics with Social Network Context
+Neighbour: index 1090 and lecture Evaluation of TR Systems- Practical Issues
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 310 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+Neighbour: index 364 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+
+
+
+Node: index 313 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+Node: index 314 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+
+
+
+Node: index 318 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+Node: index 319 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+
+
+
+Node: index 323 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+Node: index 324 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+
+
+Node: index 327 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+Node: index 328 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+
+
+
+Node: index 332 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+
+
+Node: index 335 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+
+
+Node: index 338 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+Node: index 339 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+
+Node: index 341 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+Neighbour: index 175 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 501 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 526 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 1419 and lecture Statistical Language Models (00-17-53)
+
+
+
+
+
+
+
+
+Node: index 349 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+Neighbour: index 636 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 2
+
+Node: index 350 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+Neighbour: index 512 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+
+
+
+Node: index 353 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+
+
+
+
+Node: index 357 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+
+Node: index 358 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+Neighbour: index 188 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 646 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 2
+
+
+
+
+
+Node: index 363 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+Neighbour: index 663 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 665 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 666 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 684 and lecture Opinion Mining and Sentiment Analysis- Motivation
+
+Node: index 364 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+Neighbour: index 310 and lecture Opinion Mining and Sentiment Analysis- Ordinal Logistic Regression
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 382 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+
+Node: index 383 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+Neighbour: index 1361 and lecture Learning to Rank Part 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 397 and lecture Contextual Text Mining- Contextual Probabilistic Latent Semantic Analysis
+
+
+
+
+Node: index 401 and lecture Contextual Text Mining- Contextual Probabilistic Latent Semantic Analysis
+
+Node: index 402 and lecture Contextual Text Mining- Contextual Probabilistic Latent Semantic Analysis
+
+Node: index 403 and lecture Contextual Text Mining- Contextual Probabilistic Latent Semantic Analysis
+
+
+
+
+
+
+
+
+
+
+Node: index 413 and lecture Contextual Text Mining- Contextual Probabilistic Latent Semantic Analysis
+
+
+Node: index 415 and lecture Contextual Text Mining- Contextual Probabilistic Latent Semantic Analysis
+
+
+
+
+
+
+Node: index 421 and lecture Contextual Text Mining- Contextual Probabilistic Latent Semantic Analysis
+
+
+
+Node: index 424 and lecture Contextual Text Mining- Contextual Probabilistic Latent Semantic Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 440 and lecture Contextual Text Mining- Motivation
+Neighbour: index 848 and lecture Overview Text Mining and Analytics- Part 2
+
+
+Node: index 442 and lecture Course Summary
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1112 and lecture Natural Language Content Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 459 and lecture Course Summary
+Neighbour: index 25 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 73 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 2
+
+Node: index 460 and lecture Course Summary
+Neighbour: index 592 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+Neighbour: index 692 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 727 and lecture Text-Based Prediction
+Neighbour: index 745 and lecture Text-Based Prediction
+Neighbour: index 834 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 847 and lecture Overview Text Mining and Analytics- Part 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 474 and lecture Course Summary
+Neighbour: index 725 and lecture Text-Based Prediction
+
+
+
+Node: index 477 and lecture Course Summary
+Neighbour: index 864 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 866 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 1844 and lecture Course Introduction
+Neighbour: index 2027 and lecture Text Access
+
+Node: index 478 and lecture Course Summary
+Neighbour: index 864 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 866 and lecture Overview Text Mining and Analytics- Part 1
+
+
+
+
+
+
+
+
+Node: index 486 and lecture Text Representation- Part 2
+Neighbour: index 690 and lecture Opinion Mining and Sentiment Analysis- Motivation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 501 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 341 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+
+
+
+
+
+Node: index 506 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 194 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+
+Node: index 507 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 247 and lecture Syntagmatic Relation Discovery- Entropy
+
+
+
+
+Node: index 511 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 192 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 760 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+
+Node: index 512 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 350 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+
+
+
+
+
+
+
+
+
+
+Node: index 522 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 1721 and lecture Vector Space Model- Simplest Instantiation
+
+
+
+
+Node: index 526 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 341 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+
+Node: index 527 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 264 and lecture Probabilistic Topic Models- Mining One Topic
+
+Node: index 528 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 1242 and lecture Smoothing of Language Model - Part 1
+
+
+
+
+Node: index 532 and lecture Text Representation- Part 1
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1112 and lecture Natural Language Content Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 557 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+
+
+
+
+
+
+
+Node: index 564 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+
+
+
+Node: index 567 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+
+
+
+
+
+
+
+
+
+Node: index 576 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+
+
+
+
+
+
+Node: index 582 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+
+
+
+
+
+
+
+
+
+
+Node: index 592 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+Neighbour: index 460 and lecture Course Summary
+Neighbour: index 727 and lecture Text-Based Prediction
+Neighbour: index 745 and lecture Text-Based Prediction
+Neighbour: index 834 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 847 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 849 and lecture Overview Text Mining and Analytics- Part 2
+
+
+Node: index 594 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 619 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 1012 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+Node: index 595 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 1015 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+Node: index 596 and lecture Topic Mining and Analysis- Term as Topic
+
+Node: index 597 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 630 and lecture Topic Mining and Analysis- Motivation and Task Definition
+
+
+
+
+Node: index 601 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 920 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 930 and lecture Paradigmatic Relation Discovery Part 2
+
+
+
+
+
+
+
+Node: index 608 and lecture Topic Mining and Analysis- Term as Topic
+
+Node: index 609 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 1041 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+
+
+Node: index 612 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 1019 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+
+
+
+
+
+
+Node: index 619 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 198 and lecture Word Association Mining and Analysis
+Neighbour: index 594 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 655 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 722 and lecture Text-Based Prediction
+Neighbour: index 854 and lecture Overview Text Mining and Analytics- Part 2
+
+Node: index 620 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 198 and lecture Word Association Mining and Analysis
+Neighbour: index 655 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 722 and lecture Text-Based Prediction
+Neighbour: index 854 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+
+
+
+
+
+
+
+
+
+
+Node: index 630 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 597 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 751 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+
+Node: index 631 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 1025 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+Node: index 632 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 194 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 761 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+
+Node: index 633 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 194 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 753 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 761 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 794 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+Neighbour: index 1024 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 1031 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+
+
+Node: index 636 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 2
+Neighbour: index 349 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+
+
+
+
+Node: index 640 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 2
+Neighbour: index 1249 and lecture Smoothing of Language Model - Part 1
+
+
+
+
+
+Node: index 645 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 2
+Neighbour: index 194 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+
+Node: index 646 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 2
+Neighbour: index 358 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+
+
+
+
+
+
+
+
+
+Node: index 655 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 198 and lecture Word Association Mining and Analysis
+Neighbour: index 619 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 620 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 722 and lecture Text-Based Prediction
+
+Node: index 656 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 725 and lecture Text-Based Prediction
+
+
+
+
+
+
+
+Node: index 663 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 363 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+
+
+Node: index 665 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 363 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+
+Node: index 666 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 363 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+
+Node: index 667 and lecture Opinion Mining and Sentiment Analysis- Motivation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 684 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 363 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+
+
+
+
+
+
+Node: index 690 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 486 and lecture Text Representation- Part 2
+
+Node: index 691 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 281 and lecture Contextual Text Mining- Mining Topics with Social Network Context
+
+Node: index 692 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 460 and lecture Course Summary
+Neighbour: index 847 and lecture Overview Text Mining and Analytics- Part 2
+
+Node: index 693 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+Neighbour: index 230 and lecture Syntagmatic Relation Discovery- Entropy
+
+
+Node: index 695 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+Node: index 696 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+Neighbour: index 995 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+
+
+
+
+
+
+Node: index 702 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+Node: index 703 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+Neighbour: index 1002 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+
+Node: index 704 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+Node: index 705 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+
+Node: index 707 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+Node: index 708 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+Node: index 709 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 722 and lecture Text-Based Prediction
+Neighbour: index 619 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 620 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 655 and lecture Opinion Mining and Sentiment Analysis- Motivation
+
+Node: index 723 and lecture Text-Based Prediction
+Neighbour: index 854 and lecture Overview Text Mining and Analytics- Part 2
+
+
+Node: index 725 and lecture Text-Based Prediction
+Neighbour: index 474 and lecture Course Summary
+Neighbour: index 656 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 832 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 833 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 834 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 869 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 873 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 874 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 877 and lecture Overview Text Mining and Analytics- Part 1
+
+
+Node: index 727 and lecture Text-Based Prediction
+Neighbour: index 460 and lecture Course Summary
+Neighbour: index 592 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+
+
+Node: index 729 and lecture Text-Based Prediction
+Neighbour: index 1660 and lecture Course Summary
+
+
+
+Node: index 732 and lecture Text-Based Prediction
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 745 and lecture Text-Based Prediction
+Neighbour: index 460 and lecture Course Summary
+Neighbour: index 592 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+Neighbour: index 834 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 847 and lecture Overview Text Mining and Analytics- Part 2
+
+
+
+
+
+
+Node: index 751 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 630 and lecture Topic Mining and Analysis- Motivation and Task Definition
+
+
+Node: index 753 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 633 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 794 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+
+
+
+
+Node: index 757 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+
+
+
+Node: index 760 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 188 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 192 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 194 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 511 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+
+Node: index 761 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 192 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 194 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 632 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 633 and lecture Topic Mining and Analysis- Motivation and Task Definition
+
+
+
+
+
+
+
+
+Node: index 769 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+Neighbour: index 1040 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+
+
+Node: index 772 and lecture Text Mining and Analytics
+Neighbour: index 1732 and lecture Course Welcome
+
+
+Node: index 774 and lecture Text Mining and Analytics
+Neighbour: index 1735 and lecture Course Welcome
+Neighbour: index 1736 and lecture Course Welcome
+
+
+
+
+
+
+
+
+
+
+Node: index 784 and lecture Text Mining and Analytics
+Neighbour: index 1844 and lecture Course Introduction
+
+
+Node: index 786 and lecture Text Mining and Analytics
+Neighbour: index 866 and lecture Overview Text Mining and Analytics- Part 1
+
+
+
+Node: index 789 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+Neighbour: index 150 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+
+
+
+
+
+Node: index 794 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+Neighbour: index 194 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+Neighbour: index 633 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 753 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+
+
+
+
+
+
+Node: index 800 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 2
+Neighbour: index 154 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+Neighbour: index 158 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 818 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 2
+
+Node: index 819 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 2
+
+Node: index 820 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 2
+
+
+
+
+
+Node: index 825 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 2
+Neighbour: index 958 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 962 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 970 and lecture Paradigmatic Relation Discovery Part 1
+
+
+
+
+
+
+
+Node: index 832 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 725 and lecture Text-Based Prediction
+Neighbour: index 859 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 866 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 874 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 877 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 1846 and lecture Course Introduction
+
+Node: index 833 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 725 and lecture Text-Based Prediction
+
+Node: index 834 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 460 and lecture Course Summary
+Neighbour: index 592 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+Neighbour: index 725 and lecture Text-Based Prediction
+Neighbour: index 745 and lecture Text-Based Prediction
+Neighbour: index 866 and lecture Overview Text Mining and Analytics- Part 1
+
+
+
+
+
+
+Node: index 840 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 1846 and lecture Course Introduction
+
+
+
+
+
+Node: index 845 and lecture Overview Text Mining and Analytics- Part 2
+
+Node: index 846 and lecture Overview Text Mining and Analytics- Part 2
+
+Node: index 847 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 460 and lecture Course Summary
+Neighbour: index 592 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+Neighbour: index 692 and lecture Opinion Mining and Sentiment Analysis- Motivation
+Neighbour: index 745 and lecture Text-Based Prediction
+Neighbour: index 874 and lecture Overview Text Mining and Analytics- Part 1
+
+Node: index 848 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 440 and lecture Contextual Text Mining- Motivation
+
+Node: index 849 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 592 and lecture Contextual Text Mining- Mining Casual Topics with Time Series Supervision
+
+Node: index 850 and lecture Overview Text Mining and Analytics- Part 2
+
+Node: index 851 and lecture Overview Text Mining and Analytics- Part 2
+
+
+Node: index 853 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 198 and lecture Word Association Mining and Analysis
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1112 and lecture Natural Language Content Analysis
+Neighbour: index 1853 and lecture Course Introduction
+Neighbour: index 1948 and lecture Text Retrieval Problem
+
+Node: index 854 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 23 and lecture Opinion Mining and Sentiment Analysis- Latent Aspect Rating Analysis Part 1
+Neighbour: index 619 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 620 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 723 and lecture Text-Based Prediction
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+
+
+Node: index 856 and lecture Overview Text Mining and Analytics- Part 1
+
+
+
+Node: index 859 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 832 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 1846 and lecture Course Introduction
+
+
+
+
+
+Node: index 864 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 477 and lecture Course Summary
+Neighbour: index 478 and lecture Course Summary
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 1948 and lecture Text Retrieval Problem
+
+
+Node: index 866 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 477 and lecture Course Summary
+Neighbour: index 478 and lecture Course Summary
+Neighbour: index 786 and lecture Text Mining and Analytics
+Neighbour: index 832 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 834 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 1844 and lecture Course Introduction
+Neighbour: index 1948 and lecture Text Retrieval Problem
+
+
+
+Node: index 869 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 725 and lecture Text-Based Prediction
+
+
+
+
+Node: index 873 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 725 and lecture Text-Based Prediction
+
+Node: index 874 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 725 and lecture Text-Based Prediction
+Neighbour: index 832 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 847 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 1146 and lecture Natural Language Content Analysis
+
+
+
+Node: index 877 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 725 and lecture Text-Based Prediction
+Neighbour: index 832 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 1846 and lecture Course Introduction
+
+
+
+
+
+Node: index 882 and lecture Natural Language Content Analysis- Part 2
+
+Node: index 883 and lecture Natural Language Content Analysis- Part 2
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+
+
+
+
+Node: index 887 and lecture Natural Language Content Analysis- Part 2
+
+
+Node: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 198 and lecture Word Association Mining and Analysis
+Neighbour: index 442 and lecture Course Summary
+Neighbour: index 532 and lecture Text Representation- Part 1
+Neighbour: index 620 and lecture Topic Mining and Analysis- Motivation and Task Definition
+Neighbour: index 853 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 854 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 883 and lecture Natural Language Content Analysis- Part 2
+Neighbour: index 1111 and lecture Natural Language Content Analysis
+Neighbour: index 1112 and lecture Natural Language Content Analysis
+Neighbour: index 1456 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1643 and lecture Course Summary
+Neighbour: index 1853 and lecture Course Introduction
+Neighbour: index 1962 and lecture Text Retrieval Problem
+Neighbour: index 2026 and lecture Text Access
+
+Node: index 890 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1113 and lecture Natural Language Content Analysis
+
+
+
+
+
+
+Node: index 896 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1119 and lecture Natural Language Content Analysis
+
+
+
+
+
+
+
+Node: index 903 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1126 and lecture Natural Language Content Analysis
+
+
+Node: index 905 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1128 and lecture Natural Language Content Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 920 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 601 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 1948 and lecture Text Retrieval Problem
+Neighbour: index 2167 and lecture Implementation of TR Systems
+
+
+
+
+
+
+
+
+Node: index 928 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 1781 and lecture TF Transformation
+
+
+Node: index 930 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 601 and lecture Topic Mining and Analysis- Term as Topic
+Neighbour: index 1770 and lecture TF Transformation
+Neighbour: index 2166 and lecture Implementation of TR Systems
+Neighbour: index 2167 and lecture Implementation of TR Systems
+Neighbour: index 2217 and lecture Vector Space Model- Improved Instantiation
+
+
+
+
+
+
+
+
+
+Node: index 939 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 1269 and lecture Doc Length Normalization
+Neighbour: index 1272 and lecture Doc Length Normalization
+
+
+
+
+Node: index 943 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 979 and lecture Paradigmatic Relation Discovery Part 1
+
+
+
+
+
+
+Node: index 949 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 230 and lecture Syntagmatic Relation Discovery- Entropy
+
+
+
+
+
+
+
+
+Node: index 957 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 214 and lecture Word Association Mining and Analysis
+Neighbour: index 215 and lecture Word Association Mining and Analysis
+Neighbour: index 218 and lecture Word Association Mining and Analysis
+Neighbour: index 219 and lecture Word Association Mining and Analysis
+
+Node: index 958 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 214 and lecture Word Association Mining and Analysis
+Neighbour: index 215 and lecture Word Association Mining and Analysis
+Neighbour: index 218 and lecture Word Association Mining and Analysis
+Neighbour: index 219 and lecture Word Association Mining and Analysis
+Neighbour: index 825 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 2
+
+Node: index 959 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 218 and lecture Word Association Mining and Analysis
+
+Node: index 960 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 215 and lecture Word Association Mining and Analysis
+Neighbour: index 219 and lecture Word Association Mining and Analysis
+
+
+Node: index 962 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 825 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 2
+
+
+
+
+Node: index 966 and lecture Paradigmatic Relation Discovery Part 1
+
+
+
+
+Node: index 970 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 218 and lecture Word Association Mining and Analysis
+Neighbour: index 825 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 2
+
+
+
+Node: index 973 and lecture Paradigmatic Relation Discovery Part 1
+
+Node: index 974 and lecture Paradigmatic Relation Discovery Part 1
+
+Node: index 975 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 1707 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1719 and lecture Vector Space Model- Simplest Instantiation
+
+
+
+
+Node: index 979 and lecture Paradigmatic Relation Discovery Part 1
+Neighbour: index 943 and lecture Paradigmatic Relation Discovery Part 2
+
+
+
+
+
+
+
+Node: index 986 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+Neighbour: index 230 and lecture Syntagmatic Relation Discovery- Entropy
+
+Node: index 987 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+
+
+
+Node: index 990 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+
+
+
+
+
+Node: index 995 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+Neighbour: index 696 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+Node: index 996 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+
+Node: index 997 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+
+
+
+Node: index 1000 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+
+
+Node: index 1002 and lecture Syntagmatic Relation Discovery- Conditional Entropy
+Neighbour: index 224 and lecture Word Association Mining and Analysis
+Neighbour: index 703 and lecture Syntagmatic Relation Discovery- Mutual Information- Part 1
+
+
+
+
+
+
+
+
+
+
+Node: index 1012 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 594 and lecture Topic Mining and Analysis- Term as Topic
+
+
+
+Node: index 1015 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 595 and lecture Topic Mining and Analysis- Term as Topic
+
+
+
+
+Node: index 1019 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 612 and lecture Topic Mining and Analysis- Term as Topic
+
+
+
+
+
+Node: index 1024 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 633 and lecture Topic Mining and Analysis- Motivation and Task Definition
+
+Node: index 1025 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 631 and lecture Topic Mining and Analysis- Motivation and Task Definition
+
+
+
+
+
+Node: index 1030 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+Node: index 1031 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 633 and lecture Topic Mining and Analysis- Motivation and Task Definition
+
+
+
+Node: index 1034 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+
+
+
+
+
+
+Node: index 1040 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 769 and lecture Probabilistic Latent Semantic Analysis (PLSA)- Part 1
+
+Node: index 1041 and lecture Topic Mining and Analysis- Probabilistic Topic Models
+Neighbour: index 609 and lecture Topic Mining and Analysis- Term as Topic
+
+
+
+
+
+
+Node: index 1047 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+Node: index 1048 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+Neighbour: index 1796 and lecture Evaluation of TR Systems- Multi-Level Judgements
+Neighbour: index 2130 and lecture Evaluation of TR Systems- Basic Measures
+
+Node: index 1049 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+Neighbour: index 2135 and lecture Evaluation of TR Systems- Basic Measures
+
+
+
+
+
+
+Node: index 1055 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+
+
+Node: index 1058 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+Neighbour: index 1087 and lecture Evaluation of TR Systems- Practical Issues
+Neighbour: index 1090 and lecture Evaluation of TR Systems- Practical Issues
+
+
+
+
+
+Node: index 1063 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+
+
+
+
+
+Node: index 1069 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+Neighbour: index 2135 and lecture Evaluation of TR Systems- Basic Measures
+Neighbour: index 2150 and lecture Evaluation of TR Systems- Basic Measures
+
+
+
+
+Node: index 1073 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+Neighbour: index 1322 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+
+
+
+
+
+
+
+
+
+Node: index 1083 and lecture Evaluation of TR Systems- Practical Issues
+
+Node: index 1084 and lecture Evaluation of TR Systems- Practical Issues
+Neighbour: index 1302 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+
+Node: index 1086 and lecture Evaluation of TR Systems- Practical Issues
+
+Node: index 1087 and lecture Evaluation of TR Systems- Practical Issues
+Neighbour: index 1058 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+Neighbour: index 2127 and lecture Evaluation of TR Systems- Basic Measures
+
+Node: index 1088 and lecture Evaluation of TR Systems- Practical Issues
+
+
+Node: index 1090 and lecture Evaluation of TR Systems- Practical Issues
+Neighbour: index 298 and lecture Contextual Text Mining- Mining Topics with Social Network Context
+Neighbour: index 1058 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+
+
+
+
+
+
+Node: index 1097 and lecture Evaluation of TR Systems- Practical Issues
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1109 and lecture Evaluation of TR Systems- Practical Issues
+Neighbour: index 1847 and lecture Course Introduction
+
+
+Node: index 1111 and lecture Natural Language Content Analysis
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1853 and lecture Course Introduction
+Neighbour: index 1962 and lecture Text Retrieval Problem
+Neighbour: index 2026 and lecture Text Access
+
+Node: index 1112 and lecture Natural Language Content Analysis
+Neighbour: index 442 and lecture Course Summary
+Neighbour: index 532 and lecture Text Representation- Part 1
+Neighbour: index 853 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1456 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1853 and lecture Course Introduction
+Neighbour: index 2026 and lecture Text Access
+
+Node: index 1113 and lecture Natural Language Content Analysis
+Neighbour: index 890 and lecture Natural Language Content Analysis- Part 1
+
+
+
+
+
+
+Node: index 1119 and lecture Natural Language Content Analysis
+Neighbour: index 896 and lecture Natural Language Content Analysis- Part 1
+
+
+
+
+Node: index 1123 and lecture Natural Language Content Analysis
+
+
+
+Node: index 1126 and lecture Natural Language Content Analysis
+Neighbour: index 903 and lecture Natural Language Content Analysis- Part 1
+
+Node: index 1127 and lecture Natural Language Content Analysis
+
+Node: index 1128 and lecture Natural Language Content Analysis
+Neighbour: index 905 and lecture Natural Language Content Analysis- Part 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1145 and lecture Natural Language Content Analysis
+
+Node: index 1146 and lecture Natural Language Content Analysis
+Neighbour: index 874 and lecture Overview Text Mining and Analytics- Part 1
+
+
+
+
+
+
+Node: index 1152 and lecture Natural Language Content Analysis
+
+Node: index 1153 and lecture Natural Language Content Analysis
+
+
+
+
+Node: index 1157 and lecture Natural Language Content Analysis
+Neighbour: index 1332 and lecture Overview of Text Retrieval Methods
+
+
+Node: index 1159 and lecture System Implementation- Fast Search
+Neighbour: index 1358 and lecture Learning to Rank Part 1
+Neighbour: index 1907 and lecture System Implementation- Inverted Index Construction
+
+Node: index 1160 and lecture System Implementation- Fast Search
+
+Node: index 1161 and lecture System Implementation- Fast Search
+
+Node: index 1162 and lecture System Implementation- Fast Search
+
+Node: index 1163 and lecture System Implementation- Fast Search
+Neighbour: index 1253 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1255 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1722 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 2178 and lecture Implementation of TR Systems
+
+Node: index 1164 and lecture System Implementation- Fast Search
+Neighbour: index 1893 and lecture Smoothing Methods Part - 2
+
+
+
+
+
+Node: index 1169 and lecture System Implementation- Fast Search
+Neighbour: index 2175 and lecture Implementation of TR Systems
+Neighbour: index 2176 and lecture Implementation of TR Systems
+Neighbour: index 2178 and lecture Implementation of TR Systems
+
+
+
+
+
+
+Node: index 1175 and lecture System Implementation- Fast Search
+
+
+
+
+Node: index 1179 and lecture System Implementation- Fast Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1192 and lecture System Implementation- Fast Search
+Neighbour: index 1907 and lecture System Implementation- Inverted Index Construction
+
+
+
+Node: index 1195 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1519 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 1697 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 2000 and lecture Feedback in Vector Space Model- Rocchio
+
+Node: index 1196 and lecture Feedback in Text Retrieval- Feedback in LM
+
+Node: index 1197 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+
+Node: index 1198 and lecture Feedback in Text Retrieval- Feedback in LM
+
+
+
+
+
+Node: index 1203 and lecture Feedback in Text Retrieval- Feedback in LM
+
+Node: index 1204 and lecture Feedback in Text Retrieval- Feedback in LM
+
+
+
+
+
+
+
+Node: index 1211 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1449 and lecture Statistical Language Models (00-17-53)
+
+
+
+Node: index 1214 and lecture Feedback in Text Retrieval- Feedback in LM
+
+Node: index 1215 and lecture Feedback in Text Retrieval- Feedback in LM
+
+
+Node: index 1217 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 175 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 1
+
+
+
+
+
+
+
+
+
+
+Node: index 1227 and lecture Feedback in Text Retrieval- Feedback in LM
+
+Node: index 1228 and lecture Feedback in Text Retrieval- Feedback in LM
+
+
+
+
+Node: index 1232 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1444 and lecture Statistical Language Models (00-17-53)
+
+
+Node: index 1234 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1631 and lecture Feedback in Text Retrieval
+Neighbour: index 2000 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 2024 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 2073 and lecture Recommender Systems- Content-based Filtering - Part 1 
+
+
+
+Node: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1195 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1358 and lecture Learning to Rank Part 1
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1519 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1858 and lecture Smoothing Methods Part - 1
+Neighbour: index 1859 and lecture Smoothing Methods Part - 1
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+Node: index 1238 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1414 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1416 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1417 and lecture Query Likelihood Retrieval Function
+
+
+Node: index 1240 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 7 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+
+Node: index 1242 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 528 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+
+
+
+
+
+
+Node: index 1248 and lecture Smoothing of Language Model - Part 1
+
+Node: index 1249 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 640 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 2
+
+Node: index 1250 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1414 and lecture Query Likelihood Retrieval Function
+
+
+Node: index 1252 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1414 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1415 and lecture Query Likelihood Retrieval Function
+
+Node: index 1253 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1163 and lecture System Implementation- Fast Search
+Neighbour: index 1722 and lecture Vector Space Model- Simplest Instantiation
+
+Node: index 1254 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1414 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1415 and lecture Query Likelihood Retrieval Function
+
+Node: index 1255 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1163 and lecture System Implementation- Fast Search
+Neighbour: index 1414 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1415 and lecture Query Likelihood Retrieval Function
+
+
+
+
+Node: index 1259 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1414 and lecture Query Likelihood Retrieval Function
+
+Node: index 1260 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1275 and lecture Doc Length Normalization
+Neighbour: index 1297 and lecture Doc Length Normalization
+Neighbour: index 1417 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1549 and lecture Smoothing of Language Model - Part 2
+Neighbour: index 1717 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1729 and lecture Vector Space Model- Simplest Instantiation
+
+Node: index 1261 and lecture Doc Length Normalization
+Neighbour: index 1697 and lecture Vector Space Model- Simplest Instantiation
+
+
+
+
+
+
+
+
+Node: index 1269 and lecture Doc Length Normalization
+Neighbour: index 939 and lecture Paradigmatic Relation Discovery Part 2
+
+
+Node: index 1271 and lecture Doc Length Normalization
+
+Node: index 1272 and lecture Doc Length Normalization
+Neighbour: index 939 and lecture Paradigmatic Relation Discovery Part 2
+
+Node: index 1273 and lecture Doc Length Normalization
+
+Node: index 1274 and lecture Doc Length Normalization
+
+Node: index 1275 and lecture Doc Length Normalization
+Neighbour: index 1260 and lecture Smoothing of Language Model - Part 1
+
+
+Node: index 1277 and lecture Doc Length Normalization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1295 and lecture Doc Length Normalization
+Neighbour: index 1701 and lecture Vector Space Model- Simplest Instantiation
+
+
+Node: index 1297 and lecture Doc Length Normalization
+Neighbour: index 1260 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1729 and lecture Vector Space Model- Simplest Instantiation
+
+
+Node: index 1299 and lecture Doc Length Normalization
+
+
+
+Node: index 1302 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+Neighbour: index 1084 and lecture Evaluation of TR Systems- Practical Issues
+
+Node: index 1303 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+Node: index 1304 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+
+Node: index 1306 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+
+
+
+
+
+Node: index 1312 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+Node: index 1313 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+
+
+Node: index 1316 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+Node: index 1317 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+
+Node: index 1319 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+
+
+
+Node: index 1322 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 2 (00-10-01)
+Neighbour: index 1073 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+Node: index 1323 and lecture Overview of Text Retrieval Methods
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+
+
+Node: index 1327 and lecture Overview of Text Retrieval Methods
+Neighbour: index 0 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+Node: index 1328 and lecture Overview of Text Retrieval Methods
+Neighbour: index 1517 and lecture Probabilistic Retrieval Model- Basic Idea
+
+
+
+
+Node: index 1332 and lecture Overview of Text Retrieval Methods
+Neighbour: index 1157 and lecture Natural Language Content Analysis
+Neighbour: index 1757 and lecture Future of Web Search
+Neighbour: index 2026 and lecture Text Access
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1344 and lecture Link Analysis - Part 3
+
+Node: index 1345 and lecture Link Analysis - Part 3
+
+Node: index 1346 and lecture Link Analysis - Part 3
+
+Node: index 1347 and lecture Link Analysis - Part 3
+
+
+Node: index 1349 and lecture Link Analysis - Part 3
+
+Node: index 1350 and lecture Link Analysis - Part 3
+
+Node: index 1351 and lecture Link Analysis - Part 3
+
+Node: index 1352 and lecture Link Analysis - Part 3
+
+
+
+
+
+
+Node: index 1358 and lecture Learning to Rank Part 1
+Neighbour: index 1159 and lecture System Implementation- Fast Search
+Neighbour: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1458 and lecture Link Analysis - Part 1
+Neighbour: index 1566 and lecture Web Indexing
+Neighbour: index 1697 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1739 and lecture Future of Web Search
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+
+Node: index 1361 and lecture Learning to Rank Part 1
+Neighbour: index 383 and lecture Opinion Mining and Sentiment Analysis- Sentiment Classification
+Neighbour: index 1392 and lecture Learning to Rank - Part 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1380 and lecture Learning to Rank - Part 2
+Neighbour: index 1512 and lecture Link Analysis - Part 2
+
+
+
+
+
+
+
+
+
+
+Node: index 1390 and lecture Learning to Rank - Part 2
+
+Node: index 1391 and lecture Learning to Rank - Part 2
+
+Node: index 1392 and lecture Learning to Rank - Part 2
+Neighbour: index 1361 and lecture Learning to Rank Part 1
+Neighbour: index 1411 and lecture Query Likelihood Retrieval Function
+
+Node: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1195 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1197 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1519 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 1858 and lecture Smoothing Methods Part - 1
+Neighbour: index 1859 and lecture Smoothing Methods Part - 1
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+Node: index 1395 and lecture Query Likelihood Retrieval Function
+
+
+
+Node: index 1398 and lecture Query Likelihood Retrieval Function
+
+
+Node: index 1400 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1713 and lecture Vector Space Model- Simplest Instantiation
+
+
+
+Node: index 1403 and lecture Query Likelihood Retrieval Function
+
+
+
+
+
+Node: index 1408 and lecture Query Likelihood Retrieval Function
+
+Node: index 1409 and lecture Query Likelihood Retrieval Function
+
+
+Node: index 1411 and lecture Query Likelihood Retrieval Function
+Neighbour: index 260 and lecture Probabilistic Topic Models- Mining One Topic
+Neighbour: index 1392 and lecture Learning to Rank - Part 2
+Neighbour: index 1859 and lecture Smoothing Methods Part - 1
+
+Node: index 1412 and lecture Query Likelihood Retrieval Function
+
+
+Node: index 1414 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1238 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1250 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1252 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1254 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1255 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1259 and lecture Smoothing of Language Model - Part 1
+
+Node: index 1415 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1252 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1254 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1255 and lecture Smoothing of Language Model - Part 1
+
+Node: index 1416 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1238 and lecture Smoothing of Language Model - Part 1
+
+Node: index 1417 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1238 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1260 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1729 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+Node: index 1419 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 0 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+Neighbour: index 341 and lecture Probabilistic Topic Models- Mixture Model Estimation- Part 1
+Neighbour: index 1544 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1858 and lecture Smoothing Methods Part - 1
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+Node: index 1420 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+
+Node: index 1422 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 3 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+
+
+
+
+
+
+
+Node: index 1430 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 10 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+
+
+
+
+Node: index 1435 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 16 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 1
+
+
+
+
+
+
+
+
+
+Node: index 1444 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1232 and lecture Feedback in Text Retrieval- Feedback in LM
+
+
+Node: index 1446 and lecture Statistical Language Models (00-17-53)
+
+
+
+Node: index 1449 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1211 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1634 and lecture Feedback in Text Retrieval
+
+Node: index 1450 and lecture Statistical Language Models (00-17-53)
+
+
+Node: index 1452 and lecture Statistical Language Models (00-17-53)
+
+
+
+Node: index 1455 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 113 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+Neighbour: index 1544 and lecture Probabilistic Retrieval Model- Basic Idea
+
+Node: index 1456 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 198 and lecture Word Association Mining and Analysis
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1112 and lecture Natural Language Content Analysis
+
+
+Node: index 1458 and lecture Link Analysis - Part 1
+Neighbour: index 1358 and lecture Learning to Rank Part 1
+Neighbour: index 1566 and lecture Web Indexing
+Neighbour: index 1739 and lecture Future of Web Search
+Neighbour: index 1810 and lecture Web Search- Introduction & Web Crawler
+Neighbour: index 1817 and lecture Web Search- Introduction & Web Crawler
+
+
+
+Node: index 1461 and lecture Link Analysis - Part 1
+Neighbour: index 1566 and lecture Web Indexing
+
+
+
+
+Node: index 1465 and lecture Link Analysis - Part 1
+
+
+
+Node: index 1468 and lecture Link Analysis - Part 1
+
+Node: index 1469 and lecture Link Analysis - Part 1
+
+Node: index 1470 and lecture Link Analysis - Part 1
+Neighbour: index 1512 and lecture Link Analysis - Part 2
+
+Node: index 1471 and lecture Link Analysis - Part 1
+
+Node: index 1472 and lecture Link Analysis - Part 1
+Neighbour: index 1512 and lecture Link Analysis - Part 2
+
+
+
+
+
+
+
+
+
+
+Node: index 1482 and lecture Link Analysis - Part 2
+
+
+
+Node: index 1485 and lecture Link Analysis - Part 2
+
+
+Node: index 1487 and lecture Link Analysis - Part 2
+
+Node: index 1488 and lecture Link Analysis - Part 2
+
+Node: index 1489 and lecture Link Analysis - Part 2
+
+
+
+Node: index 1492 and lecture Link Analysis - Part 2
+
+Node: index 1493 and lecture Link Analysis - Part 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1511 and lecture Link Analysis - Part 2
+
+Node: index 1512 and lecture Link Analysis - Part 2
+Neighbour: index 1380 and lecture Learning to Rank - Part 2
+Neighbour: index 1470 and lecture Link Analysis - Part 1
+Neighbour: index 1472 and lecture Link Analysis - Part 1
+
+
+
+
+Node: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1323 and lecture Overview of Text Retrieval Methods
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1417 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 1646 and lecture Course Summary
+Neighbour: index 1665 and lecture Evaluation of TR Systems
+Neighbour: index 1697 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1767 and lecture TF Transformation
+Neighbour: index 1786 and lecture Evaluation of TR Systems- Multi-Level Judgements
+Neighbour: index 1858 and lecture Smoothing Methods Part - 1
+Neighbour: index 1948 and lecture Text Retrieval Problem
+Neighbour: index 2000 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+Node: index 1517 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 239 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 1328 and lecture Overview of Text Retrieval Methods
+
+
+Node: index 1519 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1195 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+Node: index 1521 and lecture Probabilistic Retrieval Model- Basic Idea
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1540 and lecture Probabilistic Retrieval Model- Basic Idea
+
+
+Node: index 1542 and lecture Probabilistic Retrieval Model- Basic Idea
+
+
+Node: index 1544 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 113 and lecture Probabilistic Topic Models- Overview of Statistical Language Models- Part 2
+Neighbour: index 1419 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1455 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+
+
+
+Node: index 1549 and lecture Smoothing of Language Model - Part 2
+Neighbour: index 1260 and lecture Smoothing of Language Model - Part 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1566 and lecture Web Indexing
+Neighbour: index 1358 and lecture Learning to Rank Part 1
+Neighbour: index 1458 and lecture Link Analysis - Part 1
+Neighbour: index 1461 and lecture Link Analysis - Part 1
+Neighbour: index 1739 and lecture Future of Web Search
+Neighbour: index 1810 and lecture Web Search- Introduction & Web Crawler
+Neighbour: index 1818 and lecture Web Search- Introduction & Web Crawler
+Neighbour: index 1827 and lecture Web Search- Introduction & Web Crawler
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1577 and lecture Web Indexing
+
+Node: index 1578 and lecture Web Indexing
+
+Node: index 1579 and lecture Web Indexing
+
+Node: index 1580 and lecture Web Indexing
+
+
+
+
+
+Node: index 1585 and lecture Web Indexing
+
+Node: index 1586 and lecture Web Indexing
+
+
+Node: index 1588 and lecture Web Indexing
+
+Node: index 1589 and lecture Web Indexing
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1601 and lecture Web Indexing
+
+
+
+
+
+
+
+
+
+
+Node: index 1611 and lecture  Recommender Systems- Content-based Filtering - Part 2
+
+Node: index 1612 and lecture  Recommender Systems- Content-based Filtering - Part 2
+
+
+
+Node: index 1615 and lecture  Recommender Systems- Content-based Filtering - Part 2
+
+Node: index 1616 and lecture  Recommender Systems- Content-based Filtering - Part 2
+
+Node: index 1617 and lecture  Recommender Systems- Content-based Filtering - Part 2
+
+Node: index 1618 and lecture  Recommender Systems- Content-based Filtering - Part 2
+
+
+
+
+
+
+
+Node: index 1625 and lecture  Recommender Systems- Content-based Filtering - Part 2
+Neighbour: index 2075 and lecture Recommender Systems- Collaborative Filtering - Part 1
+Neighbour: index 2076 and lecture Recommender Systems- Collaborative Filtering - Part 1
+
+
+Node: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 864 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 866 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 1195 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1665 and lecture Evaluation of TR Systems
+Neighbour: index 1786 and lecture Evaluation of TR Systems- Multi-Level Judgements
+Neighbour: index 1858 and lecture Smoothing Methods Part - 1
+Neighbour: index 1948 and lecture Text Retrieval Problem
+Neighbour: index 2000 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+
+
+Node: index 1631 and lecture Feedback in Text Retrieval
+Neighbour: index 1234 and lecture Feedback in Text Retrieval- Feedback in LM
+
+
+
+Node: index 1634 and lecture Feedback in Text Retrieval
+Neighbour: index 1449 and lecture Statistical Language Models (00-17-53)
+
+
+
+
+
+
+
+
+
+Node: index 1643 and lecture Course Summary
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+
+
+Node: index 1645 and lecture Course Summary
+Neighbour: index 1947 and lecture Text Retrieval Problem
+
+Node: index 1646 and lecture Course Summary
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+
+
+
+
+
+
+Node: index 1652 and lecture Course Summary
+Neighbour: index 1694 and lecture Learning to Rank - Part 3
+
+
+
+
+
+
+
+Node: index 1659 and lecture Course Summary
+Neighbour: index 1844 and lecture Course Introduction
+
+Node: index 1660 and lecture Course Summary
+Neighbour: index 729 and lecture Text-Based Prediction
+Neighbour: index 2027 and lecture Text Access
+
+
+
+Node: index 1663 and lecture Course Summary
+Neighbour: index 1763 and lecture Future of Web Search
+
+
+Node: index 1665 and lecture Evaluation of TR Systems
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1694 and lecture Learning to Rank - Part 3
+Neighbour: index 1652 and lecture Course Summary
+
+
+
+Node: index 1697 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1195 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1261 and lecture Doc Length Normalization
+Neighbour: index 1358 and lecture Learning to Rank Part 1
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1767 and lecture TF Transformation
+Neighbour: index 2000 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+Node: index 1698 and lecture Vector Space Model- Simplest Instantiation
+
+Node: index 1699 and lecture Vector Space Model- Simplest Instantiation
+
+
+Node: index 1701 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1295 and lecture Doc Length Normalization
+
+
+
+Node: index 1704 and lecture Vector Space Model- Simplest Instantiation
+
+Node: index 1705 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 237 and lecture Syntagmatic Relation Discovery- Entropy
+
+
+Node: index 1707 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 975 and lecture Paradigmatic Relation Discovery Part 1
+
+
+Node: index 1709 and lecture Vector Space Model- Simplest Instantiation
+
+Node: index 1710 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 2202 and lecture Vector Space Model- Improved Instantiation
+
+
+
+Node: index 1713 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1400 and lecture Query Likelihood Retrieval Function
+
+
+
+
+Node: index 1717 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1260 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 2006 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 2241 and lecture Vector Space Model- Basic Idea
+
+Node: index 1718 and lecture Vector Space Model- Simplest Instantiation
+
+Node: index 1719 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 975 and lecture Paradigmatic Relation Discovery Part 1
+
+
+Node: index 1721 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 522 and lecture Probabilistic Topic Models- Mixture of Unigram Language Models
+Neighbour: index 1781 and lecture TF Transformation
+
+Node: index 1722 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1163 and lecture System Implementation- Fast Search
+Neighbour: index 1253 and lecture Smoothing of Language Model - Part 1
+
+
+
+
+
+
+
+Node: index 1729 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1260 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1297 and lecture Doc Length Normalization
+Neighbour: index 1417 and lecture Query Likelihood Retrieval Function
+
+
+
+Node: index 1732 and lecture Course Welcome
+Neighbour: index 116 and lecture Course Prerequisites & Completion
+Neighbour: index 772 and lecture Text Mining and Analytics
+
+Node: index 1733 and lecture Course Welcome
+Neighbour: index 116 and lecture Course Prerequisites & Completion
+Neighbour: index 1852 and lecture Course Introduction
+
+Node: index 1734 and lecture Course Welcome
+Neighbour: index 1844 and lecture Course Introduction
+
+Node: index 1735 and lecture Course Welcome
+Neighbour: index 774 and lecture Text Mining and Analytics
+
+Node: index 1736 and lecture Course Welcome
+Neighbour: index 774 and lecture Text Mining and Analytics
+
+
+
+Node: index 1739 and lecture Future of Web Search
+Neighbour: index 1358 and lecture Learning to Rank Part 1
+Neighbour: index 1458 and lecture Link Analysis - Part 1
+Neighbour: index 1566 and lecture Web Indexing
+Neighbour: index 1810 and lecture Web Search- Introduction & Web Crawler
+
+
+
+Node: index 1742 and lecture Future of Web Search
+Neighbour: index 1847 and lecture Course Introduction
+
+
+Node: index 1744 and lecture Future of Web Search
+Neighbour: index 2120 and lecture Recommender Systems- Collaborative Filtering - Part 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1757 and lecture Future of Web Search
+Neighbour: index 1332 and lecture Overview of Text Retrieval Methods
+
+
+
+
+
+
+Node: index 1763 and lecture Future of Web Search
+Neighbour: index 1663 and lecture Course Summary
+Neighbour: index 1846 and lecture Course Introduction
+
+
+
+
+Node: index 1767 and lecture TF Transformation
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1697 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+
+
+Node: index 1770 and lecture TF Transformation
+Neighbour: index 930 and lecture Paradigmatic Relation Discovery Part 2
+
+
+
+
+
+
+
+Node: index 1777 and lecture TF Transformation
+Neighbour: index 1860 and lecture Smoothing Methods Part - 1
+
+
+Node: index 1779 and lecture TF Transformation
+
+
+Node: index 1781 and lecture TF Transformation
+Neighbour: index 928 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 1721 and lecture Vector Space Model- Simplest Instantiation
+
+Node: index 1782 and lecture TF Transformation
+
+
+Node: index 1784 and lecture TF Transformation
+
+
+Node: index 1786 and lecture Evaluation of TR Systems- Multi-Level Judgements
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+
+
+
+
+Node: index 1790 and lecture Evaluation of TR Systems- Multi-Level Judgements
+
+Node: index 1791 and lecture Evaluation of TR Systems- Multi-Level Judgements
+
+Node: index 1792 and lecture Evaluation of TR Systems- Multi-Level Judgements
+
+Node: index 1793 and lecture Evaluation of TR Systems- Multi-Level Judgements
+
+
+
+Node: index 1796 and lecture Evaluation of TR Systems- Multi-Level Judgements
+Neighbour: index 1048 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1810 and lecture Web Search- Introduction & Web Crawler
+Neighbour: index 1458 and lecture Link Analysis - Part 1
+Neighbour: index 1566 and lecture Web Indexing
+Neighbour: index 1739 and lecture Future of Web Search
+Neighbour: index 1948 and lecture Text Retrieval Problem
+
+
+
+
+
+Node: index 1815 and lecture Web Search- Introduction & Web Crawler
+
+
+Node: index 1817 and lecture Web Search- Introduction & Web Crawler
+Neighbour: index 1458 and lecture Link Analysis - Part 1
+
+Node: index 1818 and lecture Web Search- Introduction & Web Crawler
+Neighbour: index 1566 and lecture Web Indexing
+
+Node: index 1819 and lecture Web Search- Introduction & Web Crawler
+
+
+
+
+
+
+
+
+Node: index 1827 and lecture Web Search- Introduction & Web Crawler
+Neighbour: index 1566 and lecture Web Indexing
+
+Node: index 1828 and lecture Web Search- Introduction & Web Crawler
+
+
+
+
+
+Node: index 1833 and lecture Web Search- Introduction & Web Crawler
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1844 and lecture Course Introduction
+Neighbour: index 477 and lecture Course Summary
+Neighbour: index 784 and lecture Text Mining and Analytics
+Neighbour: index 866 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 1659 and lecture Course Summary
+Neighbour: index 1734 and lecture Course Welcome
+
+Node: index 1845 and lecture Course Introduction
+Neighbour: index 2027 and lecture Text Access
+
+Node: index 1846 and lecture Course Introduction
+Neighbour: index 832 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 840 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 859 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 877 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 1763 and lecture Future of Web Search
+
+Node: index 1847 and lecture Course Introduction
+Neighbour: index 1109 and lecture Evaluation of TR Systems- Practical Issues
+Neighbour: index 1742 and lecture Future of Web Search
+Neighbour: index 2047 and lecture Recommender Systems- Content-based Filtering - Part 1 
+
+
+
+Node: index 1850 and lecture Course Introduction
+Neighbour: index 123 and lecture Course Prerequisites & Completion
+Neighbour: index 125 and lecture Course Prerequisites & Completion
+
+
+Node: index 1852 and lecture Course Introduction
+Neighbour: index 1733 and lecture Course Welcome
+
+Node: index 1853 and lecture Course Introduction
+Neighbour: index 853 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1111 and lecture Natural Language Content Analysis
+Neighbour: index 1112 and lecture Natural Language Content Analysis
+
+Node: index 1854 and lecture Course Introduction
+Neighbour: index 2027 and lecture Text Access
+
+
+
+
+Node: index 1858 and lecture Smoothing Methods Part - 1
+Neighbour: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1419 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+Node: index 1859 and lecture Smoothing Methods Part - 1
+Neighbour: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1411 and lecture Query Likelihood Retrieval Function
+
+Node: index 1860 and lecture Smoothing Methods Part - 1
+Neighbour: index 1777 and lecture TF Transformation
+
+Node: index 1861 and lecture Smoothing Methods Part - 1
+
+
+Node: index 1863 and lecture Smoothing Methods Part - 1
+
+
+
+Node: index 1866 and lecture Smoothing Methods Part - 1
+
+
+
+
+
+
+
+
+
+
+Node: index 1876 and lecture Smoothing Methods Part - 1
+Neighbour: index 167 and lecture Probabilistic Topic Models- Expectation-Maximization Algorithm- Part 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1893 and lecture Smoothing Methods Part - 2
+Neighbour: index 1164 and lecture System Implementation- Fast Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1907 and lecture System Implementation- Inverted Index Construction
+Neighbour: index 1159 and lecture System Implementation- Fast Search
+Neighbour: index 1192 and lecture System Implementation- Fast Search
+
+
+
+
+
+
+Node: index 1913 and lecture System Implementation- Inverted Index Construction
+Neighbour: index 2193 and lecture Implementation of TR Systems
+
+Node: index 1914 and lecture System Implementation- Inverted Index Construction
+
+
+Node: index 1916 and lecture System Implementation- Inverted Index Construction
+
+
+
+
+
+
+
+
+
+Node: index 1925 and lecture System Implementation- Inverted Index Construction
+
+Node: index 1926 and lecture System Implementation- Inverted Index Construction
+
+Node: index 1927 and lecture System Implementation- Inverted Index Construction
+
+Node: index 1928 and lecture System Implementation- Inverted Index Construction
+
+
+Node: index 1930 and lecture System Implementation- Inverted Index Construction
+
+
+Node: index 1932 and lecture System Implementation- Inverted Index Construction
+
+Node: index 1933 and lecture System Implementation- Inverted Index Construction
+
+Node: index 1934 and lecture System Implementation- Inverted Index Construction
+
+
+Node: index 1936 and lecture System Implementation- Inverted Index Construction
+
+
+Node: index 1938 and lecture System Implementation- Inverted Index Construction
+
+
+Node: index 1940 and lecture System Implementation- Inverted Index Construction
+
+Node: index 1941 and lecture System Implementation- Inverted Index Construction
+
+
+
+
+
+Node: index 1946 and lecture System Implementation- Inverted Index Construction
+
+Node: index 1947 and lecture Text Retrieval Problem
+Neighbour: index 1645 and lecture Course Summary
+Neighbour: index 2035 and lecture Text Access
+Neighbour: index 2044 and lecture Text Access
+Neighbour: index 2120 and lecture Recommender Systems- Collaborative Filtering - Part 3
+
+Node: index 1948 and lecture Text Retrieval Problem
+Neighbour: index 853 and lecture Overview Text Mining and Analytics- Part 2
+Neighbour: index 864 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 866 and lecture Overview Text Mining and Analytics- Part 1
+Neighbour: index 920 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 1810 and lecture Web Search- Introduction & Web Crawler
+Neighbour: index 2233 and lecture Vector Space Model- Basic Idea
+
+Node: index 1949 and lecture Text Retrieval Problem
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 1962 and lecture Text Retrieval Problem
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1111 and lecture Natural Language Content Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 2000 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 1195 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1234 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 1697 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 2073 and lecture Recommender Systems- Content-based Filtering - Part 1 
+
+
+
+
+Node: index 2004 and lecture Feedback in Vector Space Model- Rocchio
+
+
+Node: index 2006 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 1717 and lecture Vector Space Model- Simplest Instantiation
+
+Node: index 2007 and lecture Feedback in Vector Space Model- Rocchio
+
+
+
+
+
+
+
+Node: index 2014 and lecture Feedback in Vector Space Model- Rocchio
+
+Node: index 2015 and lecture Feedback in Vector Space Model- Rocchio
+
+
+
+
+
+
+
+
+
+Node: index 2024 and lecture Feedback in Vector Space Model- Rocchio
+Neighbour: index 1234 and lecture Feedback in Text Retrieval- Feedback in LM
+
+
+Node: index 2026 and lecture Text Access
+Neighbour: index 889 and lecture Natural Language Content Analysis- Part 1
+Neighbour: index 1111 and lecture Natural Language Content Analysis
+Neighbour: index 1112 and lecture Natural Language Content Analysis
+Neighbour: index 1332 and lecture Overview of Text Retrieval Methods
+
+Node: index 2027 and lecture Text Access
+Neighbour: index 477 and lecture Course Summary
+Neighbour: index 1660 and lecture Course Summary
+Neighbour: index 1845 and lecture Course Introduction
+Neighbour: index 1854 and lecture Course Introduction
+
+Node: index 2028 and lecture Text Access
+Neighbour: index 2120 and lecture Recommender Systems- Collaborative Filtering - Part 3
+
+Node: index 2029 and lecture Text Access
+
+
+
+Node: index 2032 and lecture Text Access
+Neighbour: index 2050 and lecture Recommender Systems- Content-based Filtering - Part 1 
+Neighbour: index 2120 and lecture Recommender Systems- Collaborative Filtering - Part 3
+
+Node: index 2033 and lecture Text Access
+
+Node: index 2034 and lecture Text Access
+
+Node: index 2035 and lecture Text Access
+Neighbour: index 1947 and lecture Text Retrieval Problem
+Neighbour: index 2120 and lecture Recommender Systems- Collaborative Filtering - Part 3
+
+
+
+
+
+
+
+
+
+Node: index 2044 and lecture Text Access
+Neighbour: index 1947 and lecture Text Retrieval Problem
+Neighbour: index 2120 and lecture Recommender Systems- Collaborative Filtering - Part 3
+
+
+
+Node: index 2047 and lecture Recommender Systems- Content-based Filtering - Part 1 
+Neighbour: index 1847 and lecture Course Introduction
+
+
+
+Node: index 2050 and lecture Recommender Systems- Content-based Filtering - Part 1 
+Neighbour: index 2032 and lecture Text Access
+
+Node: index 2051 and lecture Recommender Systems- Content-based Filtering - Part 1 
+
+Node: index 2052 and lecture Recommender Systems- Content-based Filtering - Part 1 
+Neighbour: index 2078 and lecture Recommender Systems- Collaborative Filtering - Part 1
+
+
+
+
+
+
+Node: index 2058 and lecture Recommender Systems- Content-based Filtering - Part 1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 2073 and lecture Recommender Systems- Content-based Filtering - Part 1 
+Neighbour: index 1234 and lecture Feedback in Text Retrieval- Feedback in LM
+Neighbour: index 2000 and lecture Feedback in Vector Space Model- Rocchio
+
+
+Node: index 2075 and lecture Recommender Systems- Collaborative Filtering - Part 1
+Neighbour: index 1625 and lecture  Recommender Systems- Content-based Filtering - Part 2
+
+Node: index 2076 and lecture Recommender Systems- Collaborative Filtering - Part 1
+Neighbour: index 1625 and lecture  Recommender Systems- Content-based Filtering - Part 2
+
+
+Node: index 2078 and lecture Recommender Systems- Collaborative Filtering - Part 1
+Neighbour: index 2052 and lecture Recommender Systems- Content-based Filtering - Part 1 
+
+
+
+
+
+
+
+
+
+
+
+Node: index 2089 and lecture Recommender Systems- Collaborative Filtering - Part 2
+
+
+Node: index 2091 and lecture Recommender Systems- Collaborative Filtering - Part 2
+
+
+Node: index 2093 and lecture Recommender Systems- Collaborative Filtering - Part 2
+
+
+
+
+
+
+
+Node: index 2100 and lecture Recommender Systems- Collaborative Filtering - Part 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 2120 and lecture Recommender Systems- Collaborative Filtering - Part 3
+Neighbour: index 1744 and lecture Future of Web Search
+Neighbour: index 1947 and lecture Text Retrieval Problem
+Neighbour: index 2028 and lecture Text Access
+Neighbour: index 2032 and lecture Text Access
+Neighbour: index 2035 and lecture Text Access
+Neighbour: index 2044 and lecture Text Access
+
+
+
+
+
+
+
+Node: index 2127 and lecture Evaluation of TR Systems- Basic Measures
+Neighbour: index 1087 and lecture Evaluation of TR Systems- Practical Issues
+
+
+
+Node: index 2130 and lecture Evaluation of TR Systems- Basic Measures
+Neighbour: index 1048 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+
+
+
+
+Node: index 2135 and lecture Evaluation of TR Systems- Basic Measures
+Neighbour: index 1049 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+Neighbour: index 1069 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+
+
+
+
+
+Node: index 2141 and lecture Evaluation of TR Systems- Basic Measures
+
+
+
+
+
+
+
+
+
+Node: index 2150 and lecture Evaluation of TR Systems- Basic Measures
+Neighbour: index 1069 and lecture Evaluation of TR Systems- Evaluating Ranked Lists Part 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 2166 and lecture Implementation of TR Systems
+Neighbour: index 930 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 2204 and lecture Vector Space Model- Improved Instantiation
+
+Node: index 2167 and lecture Implementation of TR Systems
+Neighbour: index 920 and lecture Paradigmatic Relation Discovery Part 2
+Neighbour: index 930 and lecture Paradigmatic Relation Discovery Part 2
+
+
+Node: index 2169 and lecture Implementation of TR Systems
+
+
+
+
+
+
+Node: index 2175 and lecture Implementation of TR Systems
+Neighbour: index 1169 and lecture System Implementation- Fast Search
+
+Node: index 2176 and lecture Implementation of TR Systems
+Neighbour: index 1169 and lecture System Implementation- Fast Search
+
+
+Node: index 2178 and lecture Implementation of TR Systems
+Neighbour: index 1163 and lecture System Implementation- Fast Search
+Neighbour: index 1169 and lecture System Implementation- Fast Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 2193 and lecture Implementation of TR Systems
+Neighbour: index 1913 and lecture System Implementation- Inverted Index Construction
+
+
+
+
+
+
+
+
+
+Node: index 2202 and lecture Vector Space Model- Improved Instantiation
+Neighbour: index 1710 and lecture Vector Space Model- Simplest Instantiation
+
+
+Node: index 2204 and lecture Vector Space Model- Improved Instantiation
+Neighbour: index 2166 and lecture Implementation of TR Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 2217 and lecture Vector Space Model- Improved Instantiation
+Neighbour: index 930 and lecture Paradigmatic Relation Discovery Part 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node: index 2233 and lecture Vector Space Model- Basic Idea
+Neighbour: index 230 and lecture Syntagmatic Relation Discovery- Entropy
+Neighbour: index 1237 and lecture Smoothing of Language Model - Part 1
+Neighbour: index 1323 and lecture Overview of Text Retrieval Methods
+Neighbour: index 1358 and lecture Learning to Rank Part 1
+Neighbour: index 1393 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1417 and lecture Query Likelihood Retrieval Function
+Neighbour: index 1419 and lecture Statistical Language Models (00-17-53)
+Neighbour: index 1516 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1519 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1544 and lecture Probabilistic Retrieval Model- Basic Idea
+Neighbour: index 1627 and lecture Feedback in Text Retrieval
+Neighbour: index 1697 and lecture Vector Space Model- Simplest Instantiation
+Neighbour: index 1767 and lecture TF Transformation
+Neighbour: index 1858 and lecture Smoothing Methods Part - 1
+Neighbour: index 1948 and lecture Text Retrieval Problem
+
+
+
+
+
+Node: index 2238 and lecture Vector Space Model- Basic Idea
+
+
+Node: index 2240 and lecture Vector Space Model- Basic Idea
+
+Node: index 2241 and lecture Vector Space Model- Basic Idea
+Neighbour: index 1717 and lecture Vector Space Model- Simplest Instantiation
+
+
+
+
+
+
+
+
+
+
+
+
