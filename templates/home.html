@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <title>MyFlaskApp</title>
   </head>
-  <body style = "text-align:center">
-  <table style = "text-align:center">
+  <body style = "text-align:left">
+  <table style = "text-align:left">
     {% for key, value in dictionary.iteritems() %}
-    <tr style = "text-align:center">
-        <td style = "text-align:center"><a href = "{{key}}" >{{value}}</a></td>
+    <tr style = "text-align:left">
+        <td style = "text-align:left"><a href = "{{key}}" >{{value}}</a></td>
     </tr>
     {% endfor %}
 </table>
