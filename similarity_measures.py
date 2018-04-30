@@ -113,6 +113,12 @@ def similarity_measure(tokens1, tokens2, idf):
 
 
 def semantic_similarity(tokenized_sentences):
+    """Make a matrix of semantic similarity between i and j entries
+    Args:
+        tokenized_sentences (list): list of tokens of sentences
+    Return:
+        np.narray: the matrix with the similarty scores
+    """
     token_list = map(lambda x: x.split(" ")[1:], tokenized_sentences)
     word_idf = idf(token_list)  # TODO: Replace with sklearn?
 
