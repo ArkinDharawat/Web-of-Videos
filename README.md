@@ -30,5 +30,20 @@ We have detailed function documentation in the files themselves. We used [Google
     * main: Write the results obtained from the similarity matrix to a file, sim_res.txt We only write those results where matrix[i][j] > 0.5 and the node and it's neighbors are from different lectures.
     
 ### Implementation
+we had the following steps in the implementation:
+1. First we used the functions in our parse_text file to parse the transcript folders that Prof. Zhai had sent to us. We put each MOOC into a seperate .csv, textanalysis.csv and textretrieval.csv
+2. We decided to coalesce the text segments in the csv and tested various intervals of 5, 10, 20 and 30 seconds. From all of these 20-second segments made the most sense.
+3. We experimented with various similarities measure, including tf-idf, various knowledge-based similarities and Word2Vec. Word2Vec didn't perform very well, but we found [this paper](https://pdfs.semanticscholar.org/1374/617e135eaa772e52c9a2e8253f49483676d6.pdf) very helpful. After reading that we used the Wu and Palmer metric and tf-idf score to calculate similarity. 
+4. We then generated a similarity matrix from the scores and the sentences and saved it to similarity.dat 
+5. Website ???
 ### Usage
+Here is how you can use or re-create what we did:
+1. parse_text.py
+2. reduce_dataframe_maker.py
+3. similarity_measures.py
+4. make_similarity_matrix.py
+5. make_similarity_file.py/Website
 ### Member Contribution
+* **abagas3**: 
+* **arkinrd2**:
+* **ps4**:

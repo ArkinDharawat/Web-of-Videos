@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from flask import Flask, jsonify, render_template
+import sys
 
 
 lecture =[]
@@ -8,8 +9,11 @@ start_time = []
 end_time = []
 dic = {}
 app = Flask(__name__)
+ALL_LECTURES = 0
+SUBSET_INDICES = [0, 7, 1907, 1876, 224, 230]
+
 @app.route('/')
-def hello_world():
+def main():
     global lecture
     global start_time
     global end_time
@@ -31,37 +35,40 @@ def hello_world():
     start_time = map(lambda x: start_time_subset[x], indices)
     end_time = map(lambda x: end_time_subset[x], indices)
 
-    keys = list(range(matrix.shape[0]))
+    keys = range(matrix.shape[0])
     dic = {key : [] for key in keys}
     for i in range(matrix.shape[0]):
         for j in range(matrix.shape[0]):
-            if matrix[i][j] > 0.4:
+            if matrix[i][j] > 0.5 and matrix[i][j] < 1.0:
                 temp = dic[i]
                 temp.append(j)
                 dic[i] = temp
     data = {}
     for i in range(matrix.shape[0]):
-        string = start_time[i]
-        string += '-'
-        string+= end_time[i]
-        string += ' Lecture: '
-        string += lecture[i]
+        string = "{0}-{1} Lecture {2}".format(start_time[i], end_time[i], lecture[i])
         data[i] = string
-    return render_template("home.html", dictionary = data)
+
+    if ALL_LECTURES:
+        return render_template("home.html", dictionary = data)
+    else:
+        subset_data = {}
+        for i in SUBSET_INDICES:
+            subset_data[i] = data[i]
+
+        return render_template("home.html", dictionary=subset_data)
 
 @app.route('/<int:id>')
 def search(id):
+    global dic
     sim_list = dic[id]
     data = []
     for i in range(len(sim_list)):
         index = sim_list[i]
-        string = start_time[index]
-        string += '-'
-        string+= end_time[index]
-        string += ' Lecture: '
-        string += lecture[index]
+        string = "{0}-{1} Lecture {2}".format(start_time[index], end_time[index], lecture[index])
         data.append(string)
     return render_template("similar.html", list = data)
 
 if __name__ == "__main__":
+    if sys.argv[1] == str(1):
+        ALL_LECTURES = 1
     app.run()

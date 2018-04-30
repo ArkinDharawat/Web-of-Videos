@@ -232,3 +232,22 @@ def write_to_results(tokenized_sentences, sim_mat):
         f.write("-" * 20 + "\n")
 
     f.close()
+
+
+if __name__ == '__main__':
+    df_path = "textretrieval_20.csv"  # PATH TO DATAFRAME HERE
+
+    df_main = pd.read_csv(df_path)
+
+    # tokenized_sentences, normal_sentences = random_sentences(10)
+    # print tokenized_sentences
+
+    # tfidf_mat =tfidf(tokenized_sentences)
+    # print_results(normal_sentences, tfidf_mat)
+
+    # sem_mat = semantic_similarity(tokenized_sentences)
+    # print_results(normal_sentences, sem_mat)
+
+    # wordmodel = joblib.load('textretreival_model.pkl').wv
+    # w2v_mat = check_word2vec(tokenized_sentences, wordmodel)
+    # print_results(normal_sentences, w2v_mat)
