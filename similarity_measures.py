@@ -1,11 +1,73 @@
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
+from flask import Flask, jsonify, render_template
 
 from nltk import pos_tag
 from nltk.corpus import wordnet as wn
 
-def random_sentences(num_rand_sentences):
+lecture =[]
+start_time = []
+end_time = []
+dic = {}
+app = Flask(__name__)
+@app.route('/')
+def hello_world():
+    global lecture
+    global start_time
+    global end_time
+    global dic
+    df_path_ret = "textretrieval_20.csv"  # PATH TO DATAFRAME HERE
+    df_main_ret = pd.read_csv(df_path_ret)
+
+    df_path_anal = "textanalysis_20.csv"  # PATH TO DATAFRAME HERE
+    df_main_anal = pd.read_csv(df_path_anal)
+
+
+    df_main = df_main_anal.append(df_main_ret, ignore_index = True)
+    matrix = np.load("similarity.dat")
+    lecture_subset = df_main['lecture'].dropna()
+    start_time_subset = df_main['start_time'].dropna()
+    end_time_subset = df_main['end_time'].dropna()
+    indices = list(range(matrix.shape[0]))
+    lecture = map(lambda x: lecture_subset[x], indices)
+    start_time = map(lambda x: start_time_subset[x], indices)
+    end_time = map(lambda x: end_time_subset[x], indices)
+
+    keys = list(range(matrix.shape[0]))
+    dic = {key : [] for key in keys}
+    for i in range(matrix.shape[0]):
+        for j in range(matrix.shape[0]):
+            if matrix[i][j] > 0.4:
+                temp = dic[i]
+                temp.append(j)
+                dic[i] = temp
+    data = {}
+    for i in range(matrix.shape[0]):
+        string = start_time[i]
+        string += '-'
+        string+= end_time[i]
+        string += ' Lecture: '
+        string += lecture[i]
+        data[i] = string
+    return render_template("home.html", dictionary = data)
+
+@app.route('/<int:id>')
+def search(id):
+    sim_list = dic[id]
+    data = []
+    for i in range(len(sim_list)):
+        index = sim_list[i]
+        string = start_time[index]
+        string += '-'
+        string+= end_time[index]
+        string += ' Lecture: '
+        string += lecture[index]
+        data.append(string)
+
+    return render_template("similar.html", list = data)
+
+def random_sentences(num_rand_sentences, df_main):
     """Select num_rand_sentences at random from the Dataframe
 
     Args:
@@ -19,11 +81,17 @@ def random_sentences(num_rand_sentences):
 
     tokenized_subset = df_main['tokenized_sentence'].dropna()
     sentence_subset = df_main['sentence'].dropna()
+    lecture_subset = df_main['lecture'].dropna()
+    start_time_subset = df_main['start_time'].dropna()
+    end_time_subset = df_main['end_time'].dropna()
 
     random_tokenized_sentences = map(lambda x: tokenized_subset[x], indices)
     random_normal_sentences = map(lambda x: sentence_subset[x], indices)
+    random_lecture = map(lambda x: lecture_subset[x], indices)
+    random_start_time = map(lambda x: start_time_subset[x], indices)
+    random_end_time = map(lambda x: end_time_subset[x], indices)
 
-    return random_tokenized_sentences, random_normal_sentences
+    return random_tokenized_sentences, random_normal_sentences, random_lecture, random_start_time, random_end_time
 
 ## Semantic Similarity
 
@@ -167,7 +235,7 @@ def semantic_similarity(tokenized_sentences):
             sim = similarity_measure(token_list[i], token_list[j], synet_list[i], synet_list[j], word_idf)
 
             sentence_mat[i][j] = sim
-            sentence_mat[j][i] = sim #TODO: Path Similarity is not commutative! 
+            sentence_mat[j][i] = sim #TODO: Path Similarity is not commutative!
 
             # print sim
 
@@ -262,15 +330,17 @@ def print_results(tokenized_sentences, sim_mat):
 
     f.close()
 
+if __name__ == "__main__":
+    app.run()
 
 
 
-if __name__ == '__main__':
-    df_path = "textretrieval_20.csv"  # PATH TO DATAFRAME HERE
+#if __name__ == '__main__':
+#    df_path = "textretrieval_20.csv"  # PATH TO DATAFRAME HERE
 
-    df_main = pd.read_csv(df_path)
+#    df_main = pd.read_csv(df_path)
 
-    tokenized_sentences, normal_sentences = random_sentences(10)
+#    tokenized_sentences, normal_sentences = random_sentences(10)
 
     # print tokenized_sentences
 
@@ -283,4 +353,3 @@ if __name__ == '__main__':
     # wordmodel = joblib.load('textretreival_model.pkl').wv
     # w2v_mat = check_word2vec(tokenized_sentences, wordmodel)
     # print_results(normal_sentences, w2v_mat)
-
