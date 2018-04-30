@@ -185,7 +185,7 @@ def w2v(s1, s2, wordmodel):
     return wordmodel.n_similarity(s1words, s2words)
 
 
-def word2vec(tokenized_sentences, wordmodel):
+def word2vec_similarity(tokenized_sentences, wordmodel):
     """Calculate similarit matrix using a word 2 vec model
 
     Args:
@@ -235,8 +235,7 @@ if __name__ == '__main__':
 
     df_main = pd.read_csv(df_path)
 
-    tokenized_sentences, normal_sentences = random_sentences(2)
-
+    # tokenized_sentences, normal_sentences = random_sentences(10)
     # print tokenized_sentences
 
     # tfidf_mat =tfidf(tokenized_sentences)

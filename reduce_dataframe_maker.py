@@ -29,8 +29,8 @@ def make_row(time_accumalted, token_sentence_accumalted, sentence_accumalted, fi
         time_accumalted (int):  the total time
         token_sentence_accumalted (str): the tokenized sentence
         sentence_accumalted (str): the sentence
-        final_start_time (str): the final start time
-        final_end_time (str): the final end time
+        final_start_time (list): a list of start times
+        final_end_time (list): a list of  end times
         lecture (str):  the lecture name
 
     Returns:
