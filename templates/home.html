@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyFlaskApp</title>
+  </head>
+  <body style = "text-align:center">
+  <table style = "text-align:center">
+    {% for key, value in dictionary.iteritems() %}
+    <tr style = "text-align:center">
+        <td style = "text-align:center"><a href = "{{key}}" >{{value}}</a></td>
+    </tr>
+    {% endfor %}
+</table>
+  </body>
+</html>
