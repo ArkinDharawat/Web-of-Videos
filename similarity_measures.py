@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
-from flask import Flask, jsonify, render_template
 
 from sematch.semantic.similarity import WordNetSimilarity
 
@@ -235,9 +234,10 @@ def write_to_results(tokenized_sentences, sim_mat):
 
 
 if __name__ == '__main__':
-    df_path = "textretrieval_20.csv"  # PATH TO DATAFRAME HERE
-
-    df_main = pd.read_csv(df_path)
+    pass
+    # df_path = "textretrieval_20.csv"  # PATH TO DATAFRAME HERE
+    #
+    # df_main = pd.read_csv(df_path)
 
     # tokenized_sentences, normal_sentences = random_sentences(10)
     # print tokenized_sentences

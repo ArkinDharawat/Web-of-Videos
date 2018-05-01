@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import sys
 
 df_textanalysis = pd.read_csv("textanalysis_20.csv")
 df_textretrieval = pd.read_csv("textretrieval_20.csv")
@@ -36,4 +37,10 @@ def write_to_file():
 
 
 if __name__ == '__main__':
+    if len(sys.argv)>3:
+        if sys.argv[1] != "":
+            df_textanalysis = pd.read_csv(sys.argv[1])
+        if sys.argv[2] != "":
+            df_textretrieval = pd.read_csv(sys.argv[2])
+
     write_to_file()
