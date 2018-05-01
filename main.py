@@ -7,6 +7,7 @@ import sys
 lecture =[]
 start_time = []
 end_time = []
+sentences = []
 dic = {}
 app = Flask(__name__)
 ALL_LECTURES = 0
@@ -17,6 +18,7 @@ def main():
     global lecture
     global start_time
     global end_time
+    global sentences
     global dic
     df_path_ret = "textretrieval_20.csv"  # PATH TO DATAFRAME HERE
     df_main_ret = pd.read_csv(df_path_ret)
@@ -30,10 +32,15 @@ def main():
     lecture_subset = df_main['lecture'].dropna()
     start_time_subset = df_main['start_time'].dropna()
     end_time_subset = df_main['end_time'].dropna()
+    sentence_subset = df_main['sentence']
+
+
     indices = list(range(matrix.shape[0]))
     lecture = map(lambda x: lecture_subset[x], indices)
     start_time = map(lambda x: start_time_subset[x], indices)
     end_time = map(lambda x: end_time_subset[x], indices)
+    sentences = map(lambda x: sentence_subset[x], indices)
+
 
     keys = range(matrix.shape[0])
     dic = {key : [] for key in keys}
@@ -45,7 +52,8 @@ def main():
                 dic[i] = temp
     data = {}
     for i in range(matrix.shape[0]):
-        string = "{0}-{1} Lecture {2}".format(start_time[i], end_time[i], lecture[i])
+        string = "{0}-{1} Lecture: {2} // Sentence: {3}".format(start_time[i], end_time[i], lecture[i], sentences[i])
+        #string = "{0}-{1} Lecture: {2}".format(start_time[i], end_time[i], lecture[i])
         data[i] = string
 
     if ALL_LECTURES:
@@ -62,10 +70,13 @@ def search(id):
     global dic
     sim_list = dic[id]
     data = {}
-    original_node = "Lecture(s) Similar to : {0}-{1} Lecture {2}".format(start_time[id], end_time[id], lecture[id])
+    original_node = "Lecture(s) Similar to : {0}-{1} Lecture: {2} // Sentence: {3}".format(start_time[id], end_time[id],
+                                                                                         lecture[id], sentences[id])
+    #original_node = "Lecture(s) Similar to : {0}-{1} Lecture: {2}".format(start_time[id], end_time[id], lecture[id])
+
     for i in range(len(sim_list)):
         index = sim_list[i]
-        string = "{0}-{1} Lecture {2}".format(start_time[index], end_time[index], lecture[index])
+        string = "{0}-{1} Lecture: {2} // Sentence: {3}".format(start_time[index], end_time[index], lecture[index], sentences[index])
         data[index] = string
     return render_template("similar.html", dictionary = data, orig_node = original_node)
 
