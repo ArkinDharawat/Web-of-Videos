@@ -67,6 +67,14 @@ def main():
 
 @app.route('/<int:id>')
 def search(id):
+    """
+
+    Args:
+        id: the id of the segment
+
+    Returns:
+        a web page with node and neighbors
+    """
     global dic
     sim_list = dic[id]
     data = {}
