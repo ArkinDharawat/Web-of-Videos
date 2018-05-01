@@ -61,12 +61,13 @@ def main():
 def search(id):
     global dic
     sim_list = dic[id]
-    data = []
+    data = {}
+    original_node = "Lecture(s) Similar to : {0}-{1} Lecture {2}".format(start_time[id], end_time[id], lecture[id])
     for i in range(len(sim_list)):
         index = sim_list[i]
         string = "{0}-{1} Lecture {2}".format(start_time[index], end_time[index], lecture[index])
-        data.append(string)
-    return render_template("similar.html", list = data)
+        data[index] = string
+    return render_template("similar.html", dictionary = data, orig_node = original_node)
 
 if __name__ == "__main__":
     if sys.argv[1] == str(1):

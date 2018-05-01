@@ -6,12 +6,13 @@
     <title>WebofVideos</title>
   </head>
   <body>
-  <table style = "text-align:left">
-    {% for key in list %}
-    <tr>
-        <td>{{key}}</td>
-    </tr>
-    {% endfor %}
-</table>
+  <h4 style = "text-align:left" >{{orig_node}} </h1>
+    <table style = "text-align:left">
+      {% for key, value in dictionary.iteritems() %}
+      <tr style = "text-align:left">
+          <td style = "text-align:left"><a href = "{{key}}" >{{value}}</a></td>
+      </tr>
+      {% endfor %}
+  </table>
   </body>
 </html>
