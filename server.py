@@ -15,6 +15,11 @@ SUBSET_INDICES = [0, 7, 1907, 1876, 224, 230]
 
 @app.route('/')
 def main():
+    """THe main server
+
+    Returns:
+
+    """
     global lecture
     global start_time
     global end_time

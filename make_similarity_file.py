@@ -11,12 +11,25 @@ sentences = list(df_textanalysis['sentence']) + list(df_textretrieval['sentence'
 print len(sentences)
 
 def search_topic(idx):
+    """Searches for the correct entry in the dataframe
+
+    Args:
+        idx (int): the  index to look for
+
+    Returns:
+        str: the lecture topic for idx
+    """
     if idx > df_textanalysis.shape[0]:
         return df_textretrieval.iloc[idx-df_textanalysis.shape[0]]['lecture']
     else:
         return df_textanalysis.iloc[idx]['lecture']
 
 def write_to_file():
+    """Writes sentences to sim_res.txt file
+
+    Returns:
+
+    """
     file_sim_results = open("sim_res.txt", "w")
 
     for i in range(len(similarity_mat)):

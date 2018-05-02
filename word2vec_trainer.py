@@ -1,3 +1,5 @@
+# THIS FILE IS NO USE SINCE WE DID NOT USE WORD2VEC IN THE FINAL PRESENTATION
+
 # from gensim.models import Word2Vec
 # import pandas as pd
 # from sklearn.externals import joblib
